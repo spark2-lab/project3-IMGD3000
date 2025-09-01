@@ -883,6 +883,7 @@ saucer.o: saucer.cpp ../dragonfly/include/Saucer.h \
   /opt/homebrew/include/SFML/Graphics/Transformable.hpp \
   /opt/homebrew/include/SFML/Graphics/VertexArray.hpp \
   /opt/homebrew/include/SFML/Graphics/Vertex.hpp \
+  ../dragonfly/include/EventCollision.h \
   ../dragonfly/include/LogManager.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/is_transparent.h \
@@ -994,4 +995,4 @@ saucer.o: saucer.cpp ../dragonfly/include/Saucer.h \
   /opt/homebrew/include/SFML/System/Utf.inl \
   /opt/homebrew/include/SFML/System/String.inl \
   ../dragonfly/include/Music.h ../dragonfly/include/Sound.h \
-  ../dragonfly/include/EventOut.h
+  ../dragonfly/include/EventOut.h ../dragonfly/include/Explosion.h

@@ -4,7 +4,29 @@
 #include "ResourceManager.h"
 #include "Event.h"
 #include "EventOut.h"
+#include "Explosion.h"
 #include <stdlib.h>
+
+void Saucer::hit(const df::EventCollision *p_c)
+{
+  // If Saucer hit Saucer, ignore.
+  if ((p_c->getObject1()->getType() == "Saucer") &&
+      (p_c->getObject2()->getType() == "Saucer"))
+    return;
+
+  // If Bullet...
+  if ((p_c->getObject1()->getType() == "Bullet") ||
+      (p_c->getObject2()->getType() == "Bullet"))
+  {
+
+    // Create an explosion.
+    Explosion *p_explosion = new Explosion;
+    p_explosion->setPosition(this->getPosition());
+
+    // Saucers appear stay around perpetually.
+    new Saucer;
+  }
+}
 
 // Get invoked with every even game world passes to Object
 int Saucer::eventHandler(const df::Event *p_e)
@@ -13,6 +35,13 @@ int Saucer::eventHandler(const df::Event *p_e)
   if (p_e->getType() == df::OUT_EVENT)
   {
     out();
+    return 1;
+  }
+  if (p_e->getType() == df::COLLISION_EVENT)
+  {
+    const df::EventCollision *p_collision_event =
+        dynamic_cast<const df::EventCollision *>(p_e);
+    hit(p_collision_event);
     return 1;
   }
 
@@ -52,6 +81,7 @@ Saucer::Saucer()
 
   // Set speed in horizontal direction.
   setVelocity(df::Vector(-0.25, 0)); // 1 space left every 4 frame 1/4
+  registerInterest(df::COLLISION_EVENT);
 
   // Set starting location in the right of window.
   moveToStart();

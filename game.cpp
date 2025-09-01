@@ -12,6 +12,7 @@ void loadResources(void)
   RM.loadSprite("sprites/saucer-spr.txt", "saucer");
   RM.loadSprite("sprites/ship-spr.txt", "ship");
   RM.loadSprite("sprites/bullet-spr.txt", "bullet");
+  RM.loadSprite("sprites/explosion-spr.txt", "explosion");
 }
 
 void populateWorld(void)
