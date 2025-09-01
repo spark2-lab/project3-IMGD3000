@@ -2,10 +2,16 @@
   #include "ResourceManager.h"
   #include "GameManager.h"
   #include "LogManager.h"
+  #include "WorldManager.h"
+  #include "Saucer.h"
 
   void loadResources(void) {
     // Load saucer sprite.
     RM.loadSprite("sprites/saucer-spr.txt", "saucer");
+  }
+
+  void populateWorld(void) {
+    WM.insertObject(new Saucer());
   }
 
   int main(int argc, char *argv[]) {
@@ -23,10 +29,20 @@
     // Show splash screen.
     df::splash();
 
+    // Load game resources
+    loadResources();
+
+    //Populate game world with some objects
+    populateWorld();
+
+    GM.run();
+
+
     // Shut everything down.
     GM.shutDown();
 
     return 0;
   }
 
+ 
   

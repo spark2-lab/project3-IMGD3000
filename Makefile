@@ -48,8 +48,9 @@ LINKDIR:= $(LINKDIR) -L $(LOCALSFML)/lib
 ######
 
 GAMESRC= \
+  saucer.cpp \
 
-GAME= game.cpp
+GAME= game.cpp 
 EXECUTABLE= game
 OBJECTS= $(GAMESRC:.cpp=.o)
 
