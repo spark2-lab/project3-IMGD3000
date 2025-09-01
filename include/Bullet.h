@@ -1,13 +1,14 @@
 #include "Object.h"
 #include "EventCollision.h"
 
-class Bullet : public df::Object {
+class Bullet : public df::Object
+{
 
-   private:
+private:
     void out();
     void hit(const df::EventCollision *p_collision_event);
 
-   public:
+public:
     Bullet(df::Vector hero_pos);
     int eventHandler(const df::Event *p_e) override;
 };

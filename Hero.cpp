@@ -7,38 +7,43 @@
 #include "Bullet.h"
 #include "EventMouse.h"
 
-
 // Take appropriate action according to mouse action.
-  void Hero::mouse(const df::EventMouse *p_mouse_event) {
-    // Pressed button?
-    if ((p_mouse_event->getMouseAction() == df::CLICKED) &&
+void Hero::mouse(const df::EventMouse *p_mouse_event)
+{
+  // Pressed button?
+  if ((p_mouse_event->getMouseAction() == df::CLICKED) &&
       (p_mouse_event->getMouseButton() == df::Mouse::LEFT))
-      fire(p_mouse_event->getMousePosition());
-  }
+    fire(p_mouse_event->getMousePosition());
+}
 
 // Event handler respond to keyboard
-int Hero::eventHandler(const df::Event *p_e) {
-    if (p_e->getType() == df::KEYBOARD_EVENT) {
-      const df::EventKeyboard *p_keyboard_event = 
-                dynamic_cast <const df::EventKeyboard *> (p_e);
-      kbd(p_keyboard_event);
-      return 1;
-    }
-    if (p_e->getType() == df::STEP_EVENT) {
-      step();
-      return 1;
-    }
+int Hero::eventHandler(const df::Event *p_e)
+{
+  if (p_e->getType() == df::KEYBOARD_EVENT)
+  {
+    const df::EventKeyboard *p_keyboard_event =
+        dynamic_cast<const df::EventKeyboard *>(p_e);
+    kbd(p_keyboard_event);
+    return 1;
+  }
+  if (p_e->getType() == df::STEP_EVENT)
+  {
+    step();
+    return 1;
+  }
 
-    if (p_e->getType() == df::MSE_EVENT) {
-      const df::EventMouse *p_mouse_event = 
-              dynamic_cast <const df::EventMouse *> (p_e);
-      mouse(p_mouse_event);
-      return 1;
-    }
+  if (p_e->getType() == df::MSE_EVENT)
+  {
+    const df::EventMouse *p_mouse_event =
+        dynamic_cast<const df::EventMouse *>(p_e);
+    mouse(p_mouse_event);
+    return 1;
+  }
   return 0;
 }
 
-void Hero::fire(df::Vector target) {
+void Hero::fire(df::Vector target)
+{
   if (fire_countdown > 0)
     return;
   fire_countdown = fire_slowdown;
@@ -46,50 +51,55 @@ void Hero::fire(df::Vector target) {
   // Compute normalized vector to position, then scale by speed (1).
   df::Vector v = target - getPosition();
   v.normalize();
-  v.scale(1); 
+  v.scale(1);
   Bullet *p = new Bullet(getPosition());
   p->setVelocity(v);
 }
 
 // Take appropriate action according to key pressed.
-void Hero::kbd(const df::EventKeyboard *p_keyboard_event) {
-  
-  switch(p_keyboard_event->getKey()) {
-    case df::Keyboard::Q:    // quit
-      if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED)
-        GM.setGameOver();
-      break;
-    case df::Keyboard::W:    // up
-      if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED)
-        dy -= 1;
-      if (p_keyboard_event->getKeyboardAction() == df::KEY_RELEASED)
-        dy += 1;
-      break;
-    case df::Keyboard::S:    // down
-      if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED)
-        dy += 1;
-      if (p_keyboard_event->getKeyboardAction() == df::KEY_RELEASED)
-        dy -= 1;
-      break;
-    default:
-      return;
+void Hero::kbd(const df::EventKeyboard *p_keyboard_event)
+{
+
+  switch (p_keyboard_event->getKey())
+  {
+  case df::Keyboard::Q: // quit
+    if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED)
+      GM.setGameOver();
+    break;
+  case df::Keyboard::W: // up
+    if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED)
+      dy -= 1;
+    if (p_keyboard_event->getKeyboardAction() == df::KEY_RELEASED)
+      dy += 1;
+    break;
+  case df::Keyboard::S: // down
+    if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED)
+      dy += 1;
+    if (p_keyboard_event->getKeyboardAction() == df::KEY_RELEASED)
+      dy -= 1;
+    break;
+  default:
+    return;
   }
 }
 
 // Move up or down.
-void Hero::move(int dy) {
+void Hero::move(int dy)
+{
   if (move_countdown > 0)
     return;
   move_countdown = move_slowdown;
   // If stays on window, allow move.
   df::Vector new_pos(getPosition().getX(), getPosition().getY() + dy);
-  if ((new_pos.getY() > 3) && (new_pos.getY() < WM.getBoundary().getVertical()-1)){
+  if ((new_pos.getY() > 3) && (new_pos.getY() < WM.getBoundary().getVertical() - 1))
+  {
     WM.moveObject(this, new_pos);
   }
 }
 
 // Decrease rate restriction counters.
-void Hero::step() {
+void Hero::step()
+{
   // If delta-y is non-zero, move.
   if (dy)
     move(dy);
@@ -105,23 +115,24 @@ void Hero::step() {
     fire_countdown = 0;
 }
 
-Hero::Hero() {
-    dy = 0;
-    move_slowdown = 2;
-    move_countdown = move_slowdown;
-    fire_slowdown = 15;
-    fire_countdown = fire_slowdown;
-    
-    // Link to "ship" sprite.
-    setSprite("ship");
+Hero::Hero()
+{
+  dy = 0;
+  move_slowdown = 2;
+  move_countdown = move_slowdown;
+  fire_slowdown = 15;
+  fire_countdown = fire_slowdown;
 
-    // Object registered in keyboard event
-    registerInterest(df::KEYBOARD_EVENT);
-    registerInterest(df::STEP_EVENT);
-    registerInterest(df::MSE_EVENT);
+  // Link to "ship" sprite.
+  setSprite("ship");
 
-    // Hero on left edge of the window, mid way down verti
-    setType("Hero");
-    df::Vector p(7, WM.getBoundary().getVertical()/2);
-    setPosition(p);
+  // Object registered in keyboard event
+  registerInterest(df::KEYBOARD_EVENT);
+  registerInterest(df::STEP_EVENT);
+  registerInterest(df::MSE_EVENT);
+
+  // Hero on left edge of the window, mid way down verti
+  setType("Hero");
+  df::Vector p(7, WM.getBoundary().getVertical() / 2);
+  setPosition(p);
 }
