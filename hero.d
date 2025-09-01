@@ -994,5 +994,5 @@ hero.o: hero.cpp ../dragonfly/include/LogManager.h \
   /opt/homebrew/include/SFML/System/String.inl \
   ../dragonfly/include/Music.h ../dragonfly/include/Sound.h \
   ../dragonfly/include/GameManager.h ../dragonfly/include/EventStep.h \
-  ../dragonfly/include/Hero.h ../dragonfly/include/Bullet.h \
-  ../dragonfly/include/EventCollision.h
+  ../dragonfly/include/Hero.h ../dragonfly/include/Reticle.h \
+  ../dragonfly/include/Bullet.h ../dragonfly/include/EventCollision.h

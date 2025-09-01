@@ -1,15 +1,49 @@
-15:26:06    0 ****************************************************
-15:26:06    0 ** Dragonfly version 4.22 **
-15:26:06    0 ** Game engine started **
-15:26:06    0 ****************************************************
-15:26:06    1 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
-15:26:09   90 position: 122.000000,13.000000
-15:26:16  223 WorldManager::isValid(): Event df-collision handled automatically.
-15:26:16  223 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-15:26:16  223 WorldManager::isValid(): Event df-out handled automatically.
-15:26:16  223 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-15:26:17  264 Collision Event
-15:26:17  264 Maked for deletion
-15:26:17  264 position: 55.750000,13.000000
-15:26:23  425 ****************************************************
-15:26:23  425 ** Game engine stopped **
+16:00:34    0 ****************************************************
+16:00:34    0 ** Dragonfly version 4.22 **
+16:00:34    0 ** Game engine started **
+16:00:34    0 ****************************************************
+16:00:37   90 position: 118.000000,7.000000
+16:00:42  161 WorldManager::isValid(): Event df-collision handled automatically.
+16:00:42  161 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+16:00:42  161 WorldManager::isValid(): Event df-out handled automatically.
+16:00:42  161 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+16:00:43  184 WorldManager::isValid(): Event df-collision handled automatically.
+16:00:43  184 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+16:00:43  184 WorldManager::isValid(): Event df-out handled automatically.
+16:00:43  184 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+16:00:44  205 WorldManager::isValid(): Event df-collision handled automatically.
+16:00:44  205 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+16:00:44  205 WorldManager::isValid(): Event df-out handled automatically.
+16:00:44  205 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+16:00:44  212 position: 65.000000,7.000000
+16:00:44  212 Collision Event
+16:00:44  212 Maked for deletion
+16:00:44  212 Collision Event
+16:00:44  212 Maked for deletion
+16:00:44  212 position: 64.750000,7.000000
+16:00:44  220 WorldManager::isValid(): Event df-collision handled automatically.
+16:00:44  220 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+16:00:44  220 WorldManager::isValid(): Event df-out handled automatically.
+16:00:44  220 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+16:00:45  246 WorldManager::isValid(): Event df-collision handled automatically.
+16:00:45  246 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+16:00:45  246 WorldManager::isValid(): Event df-out handled automatically.
+16:00:45  246 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+16:00:46  265 WorldManager::isValid(): Event df-collision handled automatically.
+16:00:46  265 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+16:00:46  265 WorldManager::isValid(): Event df-out handled automatically.
+16:00:46  265 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+16:00:47  289 WorldManager::isValid(): Event df-collision handled automatically.
+16:00:47  289 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+16:00:47  289 WorldManager::isValid(): Event df-out handled automatically.
+16:00:47  289 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+16:00:47  313 WorldManager::isValid(): Event df-collision handled automatically.
+16:00:47  313 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+16:00:47  313 WorldManager::isValid(): Event df-out handled automatically.
+16:00:47  313 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+16:00:48  340 WorldManager::isValid(): Event df-collision handled automatically.
+16:00:48  340 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+16:00:48  340 WorldManager::isValid(): Event df-out handled automatically.
+16:00:48  340 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+16:00:50  394 ****************************************************
+16:00:50  394 ** Game engine stopped **

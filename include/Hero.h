@@ -1,5 +1,6 @@
 #include "Object.h"
 #include "EventKeyboard.h"
+#include "Reticle.h"
 
 class Hero : public df::Object
 {
@@ -16,6 +17,8 @@ private:
   int move_countdown;
   int fire_slowdown;
   int fire_countdown;
+
+  Reticle *p_reticle;
 
 public:
   Hero();

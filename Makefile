@@ -51,6 +51,7 @@ GAMESRC= \
   saucer.cpp \
   hero.cpp \
   bullet.cpp \
+  reticle.cpp \
 
 GAME= game.cpp 
 EXECUTABLE= game

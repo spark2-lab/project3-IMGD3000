@@ -135,4 +135,8 @@ Hero::Hero()
   setType("Hero");
   df::Vector p(7, WM.getBoundary().getVertical() / 2);
   setPosition(p);
+
+  // Create reticle for firing bullets.
+  p_reticle = new Reticle();
+  p_reticle->draw();
 }
