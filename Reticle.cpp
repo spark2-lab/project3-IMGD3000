@@ -29,20 +29,12 @@ int Reticle::eventHandler(const df::Event *p_e)
     return 0;
 }
 
-void Reticle::moveToStart()
+void Reticle::moveToInitialPosition()
 {
-    df::Vector temp_pos;
-
-    float world_horiz = WM.getBoundary().getHorizontal();
-    float world_vert = WM.getBoundary().getVertical();
-
-    // x is off right side of window
-    temp_pos.setX(world_horiz + rand() % (int)world_horiz + 3.0f);
-
-    // y is in vertical range
-    temp_pos.setY(rand() % (int)(world_vert - 1) + 1.0f);
-
-    WM.moveObject(this, temp_pos);
+    int world_horiz = (int)WM.getBoundary().getHorizontal();
+    int world_vert = (int)WM.getBoundary().getVertical();
+    df::Vector p(world_horiz / 2, world_vert / 2);
+    setPosition(p);
 }
 
 Reticle::Reticle()
@@ -51,5 +43,5 @@ Reticle::Reticle()
     setAltitude(df::MAX_ALTITUDE); // Make Reticle in foreground.
     registerInterest(df::MSE_EVENT);
 
-    moveToStart();
+    moveToInitialPosition();
 }
