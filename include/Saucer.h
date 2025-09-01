@@ -4,4 +4,8 @@
 
    public:
     Saucer();
+    int eventHandler(const df::Event *p_e) override;
+    void out();
+    void moveToStart();
+
   };

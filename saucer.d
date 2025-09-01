@@ -993,4 +993,5 @@ saucer.o: saucer.cpp ../dragonfly/include/Saucer.h \
   /opt/homebrew/include/SFML/System/Utf.hpp \
   /opt/homebrew/include/SFML/System/Utf.inl \
   /opt/homebrew/include/SFML/System/String.inl \
-  ../dragonfly/include/Music.h ../dragonfly/include/Sound.h
+  ../dragonfly/include/Music.h ../dragonfly/include/Sound.h \
+  ../dragonfly/include/EventOut.h
