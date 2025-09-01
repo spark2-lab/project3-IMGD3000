@@ -7,10 +7,14 @@ class Hero : public df::Object {
     void kbd(const df::EventKeyboard *p_keyboard_event);
     void move(int dy);
     void step();
+    void mouse(const df::EventMouse *p_mouse_event);
+    void fire(df::Vector target);
 
     int dy;
     int move_slowdown;
     int move_countdown;
+    int fire_slowdown;
+    int fire_countdown;
     
 
    public:

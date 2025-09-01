@@ -50,6 +50,7 @@ LINKDIR:= $(LINKDIR) -L $(LOCALSFML)/lib
 GAMESRC= \
   saucer.cpp \
   hero.cpp \
+  bullet.cpp \
 
 GAME= game.cpp 
 EXECUTABLE= game

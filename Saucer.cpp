@@ -37,8 +37,6 @@ int Saucer::eventHandler(const df::Event *p_e) {
     temp_pos.setY(rand() % (int) (world_vert-1) + 1.0f);
 
     WM.moveObject(this, temp_pos);
-
-
   }
 
 
@@ -46,6 +44,7 @@ int Saucer::eventHandler(const df::Event *p_e) {
 Saucer::Saucer() {
     // Setup "saucer" sprite
     setSprite("saucer");
+    setType("Saucer");
 
     // Set speed in horizontal direction.
     setVelocity(df::Vector(-0.25, 0)); // 1 space left every 4 frame 1/4

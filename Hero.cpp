@@ -4,6 +4,17 @@
 #include "GameManager.h"
 #include "EventStep.h"
 #include "Hero.h"
+#include "Bullet.h"
+#include "EventMouse.h"
+
+
+// Take appropriate action according to mouse action.
+  void Hero::mouse(const df::EventMouse *p_mouse_event) {
+    // Pressed button?
+    if ((p_mouse_event->getMouseAction() == df::CLICKED) &&
+      (p_mouse_event->getMouseButton() == df::Mouse::LEFT))
+      fire(p_mouse_event->getMousePosition());
+  }
 
 // Event handler respond to keyboard
 int Hero::eventHandler(const df::Event *p_e) {
@@ -11,11 +22,33 @@ int Hero::eventHandler(const df::Event *p_e) {
       const df::EventKeyboard *p_keyboard_event = 
                 dynamic_cast <const df::EventKeyboard *> (p_e);
       kbd(p_keyboard_event);
+      return 1;
     }
     if (p_e->getType() == df::STEP_EVENT) {
       step();
+      return 1;
     }
-    return 0;
+
+    if (p_e->getType() == df::MSE_EVENT) {
+      const df::EventMouse *p_mouse_event = 
+              dynamic_cast <const df::EventMouse *> (p_e);
+      mouse(p_mouse_event);
+      return 1;
+    }
+  return 0;
+}
+
+void Hero::fire(df::Vector target) {
+  if (fire_countdown > 0)
+    return;
+  fire_countdown = fire_slowdown;
+  // Fire Bullet towards target.
+  // Compute normalized vector to position, then scale by speed (1).
+  df::Vector v = target - getPosition();
+  v.normalize();
+  v.scale(1); 
+  Bullet *p = new Bullet(getPosition());
+  p->setVelocity(v);
 }
 
 // Take appropriate action according to key pressed.
@@ -27,14 +60,12 @@ void Hero::kbd(const df::EventKeyboard *p_keyboard_event) {
         GM.setGameOver();
       break;
     case df::Keyboard::W:    // up
-      LM.writeLog("up");
       if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED)
         dy -= 1;
       if (p_keyboard_event->getKeyboardAction() == df::KEY_RELEASED)
         dy += 1;
       break;
     case df::Keyboard::S:    // down
-      LM.writeLog("down");
       if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED)
         dy += 1;
       if (p_keyboard_event->getKeyboardAction() == df::KEY_RELEASED)
@@ -62,22 +93,32 @@ void Hero::step() {
   // If delta-y is non-zero, move.
   if (dy)
     move(dy);
+
   // Move countdown.
   move_countdown--;
   if (move_countdown < 0)
     move_countdown = 0;
+
+  // Fire countdown.
+  fire_countdown--;
+  if (fire_countdown < 0)
+    fire_countdown = 0;
 }
 
 Hero::Hero() {
     dy = 0;
     move_slowdown = 2;
     move_countdown = move_slowdown;
+    fire_slowdown = 15;
+    fire_countdown = fire_slowdown;
+    
     // Link to "ship" sprite.
     setSprite("ship");
 
     // Object registered in keyboard event
     registerInterest(df::KEYBOARD_EVENT);
     registerInterest(df::STEP_EVENT);
+    registerInterest(df::MSE_EVENT);
 
     // Hero on left edge of the window, mid way down verti
     setType("Hero");

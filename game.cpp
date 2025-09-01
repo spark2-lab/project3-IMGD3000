@@ -10,11 +10,12 @@
     // Load saucer sprite.
     RM.loadSprite("sprites/saucer-spr.txt", "saucer");
     RM.loadSprite("sprites/ship-spr.txt", "ship");
+    RM.loadSprite("sprites/bullet-spr.txt", "bullet");
   }
 
   void populateWorld(void) {
-    WM.insertObject(new Saucer());
-    WM.insertObject(new Hero());
+    new Saucer();
+    new Hero();
   }
 
   int main(int argc, char *argv[]) {
