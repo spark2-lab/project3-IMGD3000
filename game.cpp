@@ -3,15 +3,18 @@
   #include "GameManager.h"
   #include "LogManager.h"
   #include "WorldManager.h"
+  #include "Hero.h"
   #include "Saucer.h"
 
   void loadResources(void) {
     // Load saucer sprite.
     RM.loadSprite("sprites/saucer-spr.txt", "saucer");
+    RM.loadSprite("sprites/ship-spr.txt", "ship");
   }
 
   void populateWorld(void) {
     WM.insertObject(new Saucer());
+    WM.insertObject(new Hero());
   }
 
   int main(int argc, char *argv[]) {
