@@ -6,6 +6,7 @@
 #include "Hero.h"
 #include "Saucer.h"
 #include "Points.h"
+#include "Color.h"
 
 void loadResources(void)
 {
@@ -22,6 +23,13 @@ void populateWorld(void)
   new Hero();
   // Setup heads-up display.
   new Points(); // points display
+
+  df::ViewObject *p_vo = new df::ViewObject; // Count of nukes.
+  p_vo->setLocation(df::TOP_LEFT);
+  p_vo->setViewString("Nukes");
+  p_vo->setValue(1);
+  p_vo->setColor(df::YELLOW);
+
   // Spawn some saucers to shoot.
   for (int i = 0; i < 16; i++)
     new Saucer;

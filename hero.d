@@ -996,4 +996,4 @@ hero.o: hero.cpp ../dragonfly/include/LogManager.h \
   ../dragonfly/include/GameManager.h ../dragonfly/include/EventStep.h \
   ../dragonfly/include/Hero.h ../dragonfly/include/Reticle.h \
   ../dragonfly/include/Bullet.h ../dragonfly/include/EventCollision.h \
-  ../dragonfly/include/EventNuke.h
+  ../dragonfly/include/EventNuke.h ../dragonfly/include/EventView.h

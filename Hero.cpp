@@ -7,6 +7,7 @@
 #include "Bullet.h"
 #include "EventMouse.h"
 #include "EventNuke.h"
+#include "EventView.h"
 
 // Take appropriate action according to mouse action.
 void Hero::mouse(const df::EventMouse *p_mouse_event)
@@ -66,6 +67,9 @@ void Hero::nuke()
   // Create "nuke" event and send to interested Objects.
   EventNuke nuke;
   WM.onEvent(&nuke);
+  // Send "view" event with nukes to interested ViewObjects.
+  df::EventView ev("Nukes", -1, true);
+  WM.onEvent(&ev);
 }
 
 // Take appropriate action according to key pressed.
