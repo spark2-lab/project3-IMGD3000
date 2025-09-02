@@ -96,8 +96,8 @@ void Saucer::moveToStart()
   // x is off right side of window
   temp_pos.setX(world_horiz + rand() % (int)world_horiz + 3.0f);
 
-  // y is in vertical range
-  temp_pos.setY(rand() % (int)(world_vert - 1) + 1.0f);
+  // y is in vertical range.
+  temp_pos.setY(rand() % (int)(world_vert - 4) + 4.0f);
 
   // If collision, move right slightly until empty space.
   df::ObjectList collision_list = WM.getCollisions(this, temp_pos);

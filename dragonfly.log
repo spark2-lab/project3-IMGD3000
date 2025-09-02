@@ -1,385 +1,334 @@
-22:26:06    0 ****************************************************
-22:26:06    0 ** Dragonfly version 4.22 **
-22:26:06    0 ** Game engine started **
-22:26:06    0 ****************************************************
-22:26:06    1 GameManager::run(): Can't keep up! frame_time 33 ms, split 44 ms
-22:26:09   90 WorldManager::isValid(): Event df-out handled automatically.
-22:26:09   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:26:09   90 WorldManager::isValid(): Event df-out handled automatically.
-22:26:09   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:26:09   90 WorldManager::isValid(): Event df-out handled automatically.
-22:26:09   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:26:09   90 WorldManager::isValid(): Event df-out handled automatically.
-22:26:09   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:26:09   90 WorldManager::isValid(): Event df-out handled automatically.
-22:26:09   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:26:09   90 WorldManager::isValid(): Event df-out handled automatically.
-22:26:09   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:26:09   90 WorldManager::isValid(): Event df-out handled automatically.
-22:26:09   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:26:09   90 WorldManager::isValid(): Event df-out handled automatically.
-22:26:09   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:26:09   90 WorldManager::isValid(): Event df-out handled automatically.
-22:26:09   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:26:09   90 WorldManager::isValid(): Event df-out handled automatically.
-22:26:09   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:26:09   90 WorldManager::isValid(): Event df-out handled automatically.
-22:26:09   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:26:09   90 WorldManager::isValid(): Event df-out handled automatically.
-22:26:09   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:26:09   90 WorldManager::isValid(): Event df-out handled automatically.
-22:26:09   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:26:09   90 WorldManager::isValid(): Event df-out handled automatically.
-22:26:09   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:26:09   90 WorldManager::isValid(): Event df-out handled automatically.
-22:26:09   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:26:09   90 WorldManager::isValid(): Event df-out handled automatically.
-22:26:09   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:26:18  256 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:18  256 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:18  256 position: 84.000000,22.000000
-22:26:18  256 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:18  256 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:18  256 position: 103.000000,7.000000
-22:26:18  256 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:18  256 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:18  256 position: 94.000000,10.000000
-22:26:18  256 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:18  256 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:18  256 position: 103.000000,17.000000
-22:26:18  256 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:18  256 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:18  256 position: 110.000000,5.000000
-22:26:18  256 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:18  256 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:18  256 position: 108.000000,21.000000
-22:26:18  256 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:18  256 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:18  256 position: 102.000000,13.000000
-22:26:18  256 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:18  256 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:18  256 position: 91.000000,22.000000
-22:26:18  256 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:18  256 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:18  256 position: 155.000000,23.000000
-22:26:18  256 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:18  256 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:18  256 position: 117.000000,6.000000
-22:26:18  256 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:18  256 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:18  256 position: 129.000000,13.000000
-22:26:18  256 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:18  256 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:18  256 position: 113.000000,13.000000
-22:26:18  256 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:18  256 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:18  256 position: 130.000000,18.000000
-22:26:18  256 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:18  256 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:18  256 position: 156.000000,6.000000
-22:26:18  256 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:18  256 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:18  256 position: 116.000000,23.000000
-22:26:18  256 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:18  256 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:18  256 position: 120.000000,15.000000
-22:26:19  312 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:19  312 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:19  312 WorldManager::isValid(): Event df-out handled automatically.
-22:26:19  312 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:26:20  338 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:20  338 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:20  338 WorldManager::isValid(): Event df-out handled automatically.
-22:26:20  338 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:26:22  377 Collision Event
-22:26:22  377 Maked for deletion
-22:26:22  377 position: 79.500000,5.000000
-22:26:22  377 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:22  377 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:22  377 position: 115.000000,21.000000
-22:26:22  392 position: 68.000000,13.000000
-22:26:22  392 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:22  392 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:22  392 position: 91.000000,10.000000
-22:26:22  392 Collision Event
-22:26:22  392 Maked for deletion
-22:26:22  392 Collision Event
-22:26:22  392 Maked for deletion
-22:26:22  392 position: 67.750000,13.000000
-22:26:22  392 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:22  392 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:22  392 position: 101.000000,13.000000
-22:26:22  395 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:22  395 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:22  395 WorldManager::isValid(): Event df-out handled automatically.
-22:26:22  395 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:26:24  438 Collision Event
-22:26:24  438 Maked for deletion
-22:26:24  438 position: 57.250000,7.000000
-22:26:24  438 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:24  438 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:24  438 position: 116.000000,22.000000
-22:26:24  464 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:24  464 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:24  464 WorldManager::isValid(): Event df-out handled automatically.
-22:26:24  464 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:26:25  486 Collision Event
-22:26:25  486 Maked for deletion
-22:26:25  486 position: 36.250000,10.000000
-22:26:25  486 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:25  486 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:25  486 position: 113.000000,4.000000
-22:26:26  509 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:26  509 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:26  509 WorldManager::isValid(): Event df-out handled automatically.
-22:26:26  509 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:26:26  527 position: 16.250000,22.000000
-22:26:26  527 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:26  527 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:26  527 position: 152.000000,9.000000
-22:26:26  527 position: 35.250000,17.000000
-22:26:26  527 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:26  527 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:26  527 position: 160.000000,11.000000
-22:26:26  527 position: 40.250000,21.000000
-22:26:26  527 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:26  527 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:26  527 position: 123.000000,23.000000
-22:26:26  527 position: 23.250000,22.000000
-22:26:26  527 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:26  527 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:26  527 position: 128.000000,15.000000
-22:26:26  527 position: 87.250000,23.000000
-22:26:26  527 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:26  527 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:26  527 position: 110.000000,22.000000
-22:26:26  527 position: 49.250000,6.000000
-22:26:26  527 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:26  527 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:26  527 position: 103.000000,20.000000
-22:26:26  527 position: 61.250000,13.000000
-22:26:26  527 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:26  527 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:26  527 position: 139.000000,20.000000
-22:26:26  527 position: 45.250000,13.000000
-22:26:26  527 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:26  527 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:26  527 position: 136.000000,17.000000
-22:26:26  527 position: 62.250000,18.000000
-22:26:26  527 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:26  527 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:26  527 position: 110.000000,9.000000
-22:26:26  527 position: 88.250000,6.000000
-22:26:26  527 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:26  527 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:26  527 position: 141.000000,4.000000
-22:26:26  527 position: 48.250000,23.000000
-22:26:26  527 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:26  527 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:26  527 position: 153.000000,19.000000
-22:26:26  527 position: 52.250000,15.000000
-22:26:26  527 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:26  527 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:26  527 position: 101.000000,23.000000
-22:26:26  527 position: 77.750000,21.000000
-22:26:26  527 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:26  527 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:26  527 position: 118.000000,5.000000
-22:26:26  527 position: 57.500000,10.000000
-22:26:26  527 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:26  527 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:26  527 position: 159.000000,7.000000
-22:26:26  527 position: 67.500000,13.000000
-22:26:26  527 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:26  527 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:26  527 position: 98.000000,17.000000
-22:26:26  527 position: 94.000000,22.000000
-22:26:26  527 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:26  527 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:26  527 position: 166.000000,5.000000
-22:26:26  527 position: 103.000000,4.000000
-22:26:26  527 WorldManager::isValid(): Event df-collision handled automatically.
-22:26:26  527 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:26:26  527 position: 130.000000,22.000000
-22:26:31  671 position: 40.000000,12.000000
-22:26:31  672 position: 40.000000,12.000000
-22:26:31  673 position: 40.000000,12.000000
-22:26:31  674 position: 40.000000,12.000000
-22:26:31  675 position: 40.000000,12.000000
-22:26:31  676 position: 40.000000,12.000000
-22:26:31  677 position: 40.000000,12.000000
-22:26:31  678 position: 40.000000,12.000000
-22:26:32  679 position: 40.000000,12.000000
-22:26:32  680 position: 40.000000,12.000000
-22:26:32  681 position: 40.000000,12.000000
-22:26:32  682 position: 40.000000,12.000000
-22:26:32  683 position: 40.000000,12.000000
-22:26:32  684 position: 40.000000,12.000000
-22:26:32  685 position: 40.000000,12.000000
-22:26:32  686 position: 40.000000,12.000000
-22:26:32  687 position: 40.000000,12.000000
-22:26:32  688 position: 40.000000,12.000000
-22:26:32  689 position: 40.000000,12.000000
-22:26:32  690 position: 40.000000,12.000000
-22:26:32  691 position: 40.000000,12.000000
-22:26:32  692 position: 40.000000,12.000000
-22:26:32  693 position: 40.000000,12.000000
-22:26:32  694 position: 40.000000,12.000000
-22:26:32  695 position: 40.000000,12.000000
-22:26:32  696 position: 40.000000,12.000000
-22:26:32  697 position: 40.000000,12.000000
-22:26:32  698 position: 40.000000,12.000000
-22:26:32  699 position: 40.000000,12.000000
-22:26:32  700 position: 40.000000,12.000000
-22:26:32  701 position: 40.000000,12.000000
-22:26:32  702 position: 40.000000,12.000000
-22:26:32  703 position: 40.000000,12.000000
-22:26:32  704 position: 40.000000,12.000000
-22:26:32  705 position: 40.000000,12.000000
-22:26:32  706 position: 40.000000,12.000000
-22:26:32  707 position: 40.000000,12.000000
-22:26:32  708 position: 40.000000,12.000000
-22:26:32  709 position: 40.000000,12.000000
-22:26:33  710 position: 40.000000,12.000000
-22:26:33  711 position: 40.000000,12.000000
-22:26:33  712 position: 40.000000,12.000000
-22:26:33  713 position: 40.000000,12.000000
-22:26:33  714 position: 40.000000,12.000000
-22:26:33  715 position: 40.000000,12.000000
-22:26:33  716 position: 40.000000,12.000000
-22:26:33  717 position: 40.000000,12.000000
-22:26:33  718 position: 40.000000,12.000000
-22:26:33  719 position: 40.000000,12.000000
-22:26:33  720 position: 40.000000,12.000000
-22:26:33  721 position: 40.000000,12.000000
-22:26:33  722 position: 40.000000,12.000000
-22:26:33  723 position: 40.000000,12.000000
-22:26:33  724 position: 40.000000,12.000000
-22:26:33  725 position: 40.000000,12.000000
-22:26:33  726 position: 40.000000,12.000000
-22:26:33  727 position: 40.000000,12.000000
-22:26:33  728 position: 40.000000,12.000000
-22:26:33  729 position: 40.000000,12.000000
-22:26:33  730 position: 40.000000,12.000000
-22:26:33  731 position: 40.000000,12.000000
-22:26:33  732 position: 40.000000,12.000000
-22:26:33  733 position: 40.000000,12.000000
-22:26:33  734 position: 40.000000,12.000000
-22:26:33  735 position: 40.000000,12.000000
-22:26:33  736 position: 40.000000,12.000000
-22:26:33  737 position: 40.000000,12.000000
-22:26:33  738 position: 40.000000,12.000000
-22:26:33  739 position: 40.000000,12.000000
-22:26:34  740 position: 40.000000,12.000000
-22:26:34  741 position: 40.000000,12.000000
-22:26:34  742 position: 40.000000,12.000000
-22:26:34  743 position: 40.000000,12.000000
-22:26:34  744 position: 40.000000,12.000000
-22:26:34  745 position: 40.000000,12.000000
-22:26:34  746 position: 40.000000,12.000000
-22:26:34  747 position: 40.000000,12.000000
-22:26:34  748 position: 40.000000,12.000000
-22:26:34  749 position: 40.000000,12.000000
-22:26:34  750 position: 40.000000,12.000000
-22:26:34  751 position: 40.000000,12.000000
-22:26:34  752 position: 40.000000,12.000000
-22:26:34  753 position: 40.000000,12.000000
-22:26:34  754 position: 40.000000,12.000000
-22:26:34  755 position: 40.000000,12.000000
-22:26:34  756 position: 40.000000,12.000000
-22:26:34  757 position: 40.000000,12.000000
-22:26:34  758 position: 40.000000,12.000000
-22:26:34  759 position: 40.000000,12.000000
-22:26:34  760 position: 40.000000,12.000000
-22:26:34  761 position: 40.000000,12.000000
-22:26:34  762 position: 40.000000,12.000000
-22:26:34  763 position: 40.000000,12.000000
-22:26:34  764 position: 40.000000,12.000000
-22:26:34  765 position: 40.000000,12.000000
-22:26:34  766 position: 40.000000,12.000000
-22:26:34  767 position: 40.000000,12.000000
-22:26:34  768 position: 40.000000,12.000000
-22:26:34  769 position: 40.000000,12.000000
-22:26:35  770 position: 40.000000,12.000000
-22:26:35  771 position: 40.000000,12.000000
-22:26:35  772 position: 40.000000,12.000000
-22:26:35  773 position: 40.000000,12.000000
-22:26:35  774 position: 40.000000,12.000000
-22:26:35  775 position: 40.000000,12.000000
-22:26:35  776 position: 40.000000,12.000000
-22:26:35  777 position: 40.000000,12.000000
-22:26:35  778 position: 40.000000,12.000000
-22:26:35  779 position: 40.000000,12.000000
-22:26:35  780 position: 40.000000,12.000000
-22:26:35  781 position: 40.000000,12.000000
-22:26:35  782 position: 40.000000,12.000000
-22:26:35  783 position: 40.000000,12.000000
-22:26:35  784 position: 40.000000,12.000000
-22:26:35  785 position: 40.000000,12.000000
-22:26:35  786 position: 40.000000,12.000000
-22:26:35  787 position: 40.000000,12.000000
-22:26:35  788 position: 40.000000,12.000000
-22:26:35  789 position: 40.000000,12.000000
-22:26:35  790 position: 40.000000,12.000000
-22:26:35  791 position: 40.000000,12.000000
-22:26:35  792 position: 40.000000,12.000000
-22:26:35  793 position: 40.000000,12.000000
-22:26:35  794 position: 40.000000,12.000000
-22:26:35  795 position: 40.000000,12.000000
-22:26:35  796 position: 40.000000,12.000000
-22:26:35  797 position: 40.000000,12.000000
-22:26:35  798 position: 40.000000,12.000000
-22:26:35  799 position: 40.000000,12.000000
-22:26:35  800 position: 40.000000,12.000000
-22:26:36  801 position: 40.000000,12.000000
-22:26:36  802 position: 40.000000,12.000000
-22:26:36  803 position: 40.000000,12.000000
-22:26:36  804 position: 40.000000,12.000000
-22:26:36  805 position: 40.000000,12.000000
-22:26:36  806 position: 40.000000,12.000000
-22:26:36  807 position: 40.000000,12.000000
-22:26:36  808 position: 40.000000,12.000000
-22:26:36  809 position: 40.000000,12.000000
-22:26:36  810 position: 40.000000,12.000000
-22:26:36  811 position: 40.000000,12.000000
-22:26:36  812 position: 40.000000,12.000000
-22:26:36  813 position: 40.000000,12.000000
-22:26:36  814 position: 40.000000,12.000000
-22:26:36  815 position: 40.000000,12.000000
-22:26:36  816 position: 40.000000,12.000000
-22:26:36  817 position: 40.000000,12.000000
-22:26:36  818 position: 40.000000,12.000000
-22:26:36  819 position: 40.000000,12.000000
-22:26:36  820 position: 40.000000,12.000000
-22:26:36  821 position: 40.000000,12.000000
-22:26:36  822 position: 40.000000,12.000000
-22:26:36  823 position: 40.000000,12.000000
-22:26:36  824 position: 40.000000,12.000000
-22:26:36  825 position: 40.000000,12.000000
-22:26:36  826 position: 40.000000,12.000000
-22:26:36  827 position: 40.000000,12.000000
-22:26:36  828 position: 40.000000,12.000000
-22:26:36  829 position: 40.000000,12.000000
-22:26:36  830 position: 40.000000,12.000000
-22:26:37  831 position: 40.000000,12.000000
-22:26:37  832 position: 40.000000,12.000000
-22:26:37  833 position: 40.000000,12.000000
-22:26:37  834 position: 40.000000,12.000000
-22:26:37  835 position: 40.000000,12.000000
-22:26:37  836 position: 40.000000,12.000000
-22:26:37  837 position: 40.000000,12.000000
-22:26:37  838 position: 40.000000,12.000000
-22:26:37  839 position: 40.000000,12.000000
-22:26:37  840 position: 40.000000,12.000000
-22:26:37  841 position: 40.000000,12.000000
-22:26:37  842 position: 40.000000,12.000000
-22:26:37  843 position: 40.000000,12.000000
-22:26:37  844 position: 40.000000,12.000000
-22:26:37  845 position: 40.000000,12.000000
-22:26:37  846 position: 40.000000,12.000000
-22:26:37  847 position: 40.000000,12.000000
-22:26:37  848 position: 40.000000,12.000000
-22:26:37  849 position: 40.000000,12.000000
-22:26:37  850 position: 40.000000,12.000000
-22:26:44 1066 ****************************************************
-22:26:44 1066 ** Game engine stopped **
+22:29:07    0 ****************************************************
+22:29:07    0 ** Dragonfly version 4.22 **
+22:29:07    0 ** Game engine started **
+22:29:07    0 ****************************************************
+22:29:07    1 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+22:29:10   90 WorldManager::isValid(): Event df-out handled automatically.
+22:29:10   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:29:10   90 WorldManager::isValid(): Event df-out handled automatically.
+22:29:10   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:29:10   90 WorldManager::isValid(): Event df-out handled automatically.
+22:29:10   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:29:10   90 WorldManager::isValid(): Event df-out handled automatically.
+22:29:10   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:29:10   90 WorldManager::isValid(): Event df-out handled automatically.
+22:29:10   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:29:10   90 WorldManager::isValid(): Event df-out handled automatically.
+22:29:10   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:29:10   90 WorldManager::isValid(): Event df-out handled automatically.
+22:29:10   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:29:10   90 WorldManager::isValid(): Event df-out handled automatically.
+22:29:10   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:29:10   90 WorldManager::isValid(): Event df-out handled automatically.
+22:29:10   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:29:10   90 WorldManager::isValid(): Event df-out handled automatically.
+22:29:10   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:29:10   90 WorldManager::isValid(): Event df-out handled automatically.
+22:29:10   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:29:10   90 WorldManager::isValid(): Event df-out handled automatically.
+22:29:10   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:29:10   90 WorldManager::isValid(): Event df-out handled automatically.
+22:29:10   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:29:10   90 WorldManager::isValid(): Event df-out handled automatically.
+22:29:10   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:29:10   90 WorldManager::isValid(): Event df-out handled automatically.
+22:29:10   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:29:10   90 WorldManager::isValid(): Event df-out handled automatically.
+22:29:10   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:29:13  103 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:13  103 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:13  103 position: 103.000000,14.000000
+22:29:13  103 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:13  103 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:13  103 position: 97.000000,9.000000
+22:29:13  103 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:13  103 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:13  103 position: 117.000000,14.000000
+22:29:13  103 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:13  103 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:13  103 position: 104.000000,11.000000
+22:29:13  103 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:13  103 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:13  103 position: 153.000000,18.000000
+22:29:13  103 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:13  103 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:13  103 position: 160.000000,20.000000
+22:29:13  103 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:13  103 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:13  103 position: 154.000000,23.000000
+22:29:13  103 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:13  103 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:13  103 position: 87.000000,13.000000
+22:29:13  103 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:13  103 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:13  103 position: 95.000000,22.000000
+22:29:13  103 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:13  103 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:13  103 position: 142.000000,9.000000
+22:29:13  103 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:13  103 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:13  103 position: 132.000000,8.000000
+22:29:13  103 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:13  103 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:13  103 position: 124.000000,16.000000
+22:29:13  103 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:13  103 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:13  103 position: 107.000000,6.000000
+22:29:13  103 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:13  103 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:13  103 position: 147.000000,6.000000
+22:29:13  103 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:13  103 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:13  103 position: 114.000000,4.000000
+22:29:13  103 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:13  103 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:13  103 position: 134.000000,11.000000
+22:29:20  315 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:20  315 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:20  315 WorldManager::isValid(): Event df-out handled automatically.
+22:29:20  315 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:29:21  331 position: 30.000000,13.000000
+22:29:21  331 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:21  331 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:21  331 position: 144.000000,21.000000
+22:29:21  331 Collision Event
+22:29:21  331 Maked for deletion
+22:29:21  331 Collision Event
+22:29:21  331 Maked for deletion
+22:29:21  331 position: 29.750000,13.000000
+22:29:21  331 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:21  331 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:21  331 position: 88.000000,20.000000
+22:29:21  345 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:21  345 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:21  345 WorldManager::isValid(): Event df-out handled automatically.
+22:29:21  345 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:29:22  363 position: 32.000000,9.000000
+22:29:22  363 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:22  363 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:22  363 position: 90.000000,4.000000
+22:29:22  363 Collision Event
+22:29:22  363 Maked for deletion
+22:29:22  363 Collision Event
+22:29:22  363 Maked for deletion
+22:29:22  363 position: 31.750000,9.000000
+22:29:22  363 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:22  363 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:22  363 position: 89.000000,8.000000
+22:29:23  398 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:23  398 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:23  398 WorldManager::isValid(): Event df-out handled automatically.
+22:29:23  398 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:29:24  410 Collision Event
+22:29:24  410 Maked for deletion
+22:29:24  410 position: 26.000000,14.000000
+22:29:24  410 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:24  410 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:24  410 position: 155.000000,13.000000
+22:29:26  470 position: 12.250000,11.000000
+22:29:26  471 position: 40.000000,12.000000
+22:29:26  472 position: 40.000000,12.000000
+22:29:26  473 position: 40.000000,12.000000
+22:29:26  474 position: 40.000000,12.000000
+22:29:26  475 position: 40.000000,12.000000
+22:29:26  476 position: 40.000000,12.000000
+22:29:26  477 position: 40.000000,12.000000
+22:29:26  478 position: 40.000000,12.000000
+22:29:26  479 position: 40.000000,12.000000
+22:29:26  480 position: 40.000000,12.000000
+22:29:26  481 position: 40.000000,12.000000
+22:29:26  482 position: 40.000000,12.000000
+22:29:26  483 position: 40.000000,12.000000
+22:29:26  484 position: 40.000000,12.000000
+22:29:26  485 position: 40.000000,12.000000
+22:29:26  486 position: 40.000000,12.000000
+22:29:26  487 position: 40.000000,12.000000
+22:29:26  488 position: 40.000000,12.000000
+22:29:26  489 position: 40.000000,12.000000
+22:29:26  490 position: 40.000000,12.000000
+22:29:26  491 position: 40.000000,12.000000
+22:29:26  492 position: 40.000000,12.000000
+22:29:26  493 position: 40.000000,12.000000
+22:29:26  494 position: 40.000000,12.000000
+22:29:26  495 position: 40.000000,12.000000
+22:29:26  495 position: -3.250000,22.000000
+22:29:26  495 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:26  495 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:26  495 position: 150.000000,20.000000
+22:29:26  496 position: 40.000000,12.000000
+22:29:26  497 position: 40.000000,12.000000
+22:29:26  498 position: 40.000000,12.000000
+22:29:26  499 position: 40.000000,12.000000
+22:29:27  500 position: 40.000000,12.000000
+22:29:27  501 position: 40.000000,12.000000
+22:29:27  502 position: 40.000000,12.000000
+22:29:27  503 position: 40.000000,12.000000
+22:29:27  504 position: 40.000000,12.000000
+22:29:27  505 position: 40.000000,12.000000
+22:29:27  506 position: 40.000000,12.000000
+22:29:27  507 position: 40.000000,12.000000
+22:29:27  508 position: 40.000000,12.000000
+22:29:27  509 position: 40.000000,12.000000
+22:29:27  510 position: 40.000000,12.000000
+22:29:27  511 position: 40.000000,12.000000
+22:29:27  512 position: 40.000000,12.000000
+22:29:27  513 position: 40.000000,12.000000
+22:29:27  514 position: 40.000000,12.000000
+22:29:27  515 position: 40.000000,12.000000
+22:29:27  516 position: 40.000000,12.000000
+22:29:27  517 position: 40.000000,12.000000
+22:29:27  518 position: 40.000000,12.000000
+22:29:27  519 position: 40.000000,12.000000
+22:29:27  520 position: 40.000000,12.000000
+22:29:27  521 position: 40.000000,12.000000
+22:29:27  522 position: 40.000000,12.000000
+22:29:27  523 position: 40.000000,12.000000
+22:29:27  524 position: 40.000000,12.000000
+22:29:27  525 position: 40.000000,12.000000
+22:29:27  526 position: 40.000000,12.000000
+22:29:27  527 position: 40.000000,12.000000
+22:29:27  528 position: 40.000000,12.000000
+22:29:27  529 position: 40.000000,12.000000
+22:29:28  530 position: 40.000000,12.000000
+22:29:28  531 position: 40.000000,12.000000
+22:29:28  532 position: 40.000000,12.000000
+22:29:28  533 position: 40.000000,12.000000
+22:29:28  534 position: 40.000000,12.000000
+22:29:28  535 position: 40.000000,12.000000
+22:29:28  536 position: 40.000000,12.000000
+22:29:28  537 position: 40.000000,12.000000
+22:29:28  538 position: 40.000000,12.000000
+22:29:28  539 position: 40.000000,12.000000
+22:29:28  540 position: 40.000000,12.000000
+22:29:28  541 position: 40.000000,12.000000
+22:29:28  542 position: 40.000000,12.000000
+22:29:28  543 position: 40.000000,12.000000
+22:29:28  543 position: -3.250000,6.000000
+22:29:28  543 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:28  543 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:28  543 position: 116.000000,8.000000
+22:29:28  544 position: 40.000000,12.000000
+22:29:28  545 position: 40.000000,12.000000
+22:29:28  546 position: 40.000000,12.000000
+22:29:28  547 position: 40.000000,12.000000
+22:29:28  548 position: 40.000000,12.000000
+22:29:28  549 position: 40.000000,12.000000
+22:29:28  550 position: 40.000000,12.000000
+22:29:28  551 position: 40.000000,12.000000
+22:29:28  552 position: 40.000000,12.000000
+22:29:28  553 position: 40.000000,12.000000
+22:29:28  554 position: 40.000000,12.000000
+22:29:28  555 position: 40.000000,12.000000
+22:29:28  556 position: 40.000000,12.000000
+22:29:28  557 position: 40.000000,12.000000
+22:29:28  558 position: 40.000000,12.000000
+22:29:28  559 position: 40.000000,12.000000
+22:29:29  560 position: 40.000000,12.000000
+22:29:29  561 position: 40.000000,12.000000
+22:29:29  562 position: 40.000000,12.000000
+22:29:29  563 position: 40.000000,12.000000
+22:29:29  564 position: 40.000000,12.000000
+22:29:29  565 position: 40.000000,12.000000
+22:29:29  566 position: 40.000000,12.000000
+22:29:29  567 position: 40.000000,12.000000
+22:29:29  568 position: 40.000000,12.000000
+22:29:29  569 position: 40.000000,12.000000
+22:29:29  570 position: 40.000000,12.000000
+22:29:29  571 position: 40.000000,12.000000
+22:29:29  571 position: -3.250000,4.000000
+22:29:29  571 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:29  571 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:29  571 position: 129.000000,23.000000
+22:29:29  572 position: 40.000000,12.000000
+22:29:29  573 position: 40.000000,12.000000
+22:29:29  574 position: 40.000000,12.000000
+22:29:29  575 position: 40.000000,12.000000
+22:29:29  576 position: 40.000000,12.000000
+22:29:29  577 position: 40.000000,12.000000
+22:29:29  578 position: 40.000000,12.000000
+22:29:29  579 position: 40.000000,12.000000
+22:29:29  580 position: 40.000000,12.000000
+22:29:29  581 position: 40.000000,12.000000
+22:29:29  582 position: 40.000000,12.000000
+22:29:29  583 position: 40.000000,12.000000
+22:29:29  583 position: -3.250000,14.000000
+22:29:29  583 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:29  583 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:29  583 position: 135.000000,21.000000
+22:29:29  584 position: 40.000000,12.000000
+22:29:29  585 position: 40.000000,12.000000
+22:29:29  586 position: 40.000000,12.000000
+22:29:29  587 position: 40.000000,12.000000
+22:29:29  588 position: 40.000000,12.000000
+22:29:29  589 position: 40.000000,12.000000
+22:29:29  590 position: 40.000000,12.000000
+22:29:30  591 position: 40.000000,12.000000
+22:29:30  592 position: 40.000000,12.000000
+22:29:30  593 position: 40.000000,12.000000
+22:29:30  594 position: 40.000000,12.000000
+22:29:30  595 position: 40.000000,12.000000
+22:29:30  596 position: 40.000000,12.000000
+22:29:30  597 position: 40.000000,12.000000
+22:29:30  598 position: 40.000000,12.000000
+22:29:30  599 position: 40.000000,12.000000
+22:29:30  600 position: 40.000000,12.000000
+22:29:30  601 position: 40.000000,12.000000
+22:29:30  602 position: 40.000000,12.000000
+22:29:30  603 position: 40.000000,12.000000
+22:29:30  604 position: 40.000000,12.000000
+22:29:30  605 position: 40.000000,12.000000
+22:29:30  606 position: 40.000000,12.000000
+22:29:30  607 position: 40.000000,12.000000
+22:29:30  608 position: 40.000000,12.000000
+22:29:30  609 position: 40.000000,12.000000
+22:29:30  610 position: 40.000000,12.000000
+22:29:30  611 position: 40.000000,12.000000
+22:29:30  611 position: -3.250000,16.000000
+22:29:30  611 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:30  611 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:30  611 position: 113.000000,7.000000
+22:29:30  612 position: 40.000000,12.000000
+22:29:30  613 position: 40.000000,12.000000
+22:29:30  614 position: 40.000000,12.000000
+22:29:30  615 position: 40.000000,12.000000
+22:29:30  616 position: 40.000000,12.000000
+22:29:30  617 position: 40.000000,12.000000
+22:29:30  618 position: 40.000000,12.000000
+22:29:30  619 position: 40.000000,12.000000
+22:29:30  620 position: 40.000000,12.000000
+22:29:31  621 position: 40.000000,12.000000
+22:29:31  622 position: 40.000000,12.000000
+22:29:31  623 position: 40.000000,12.000000
+22:29:31  624 position: 40.000000,12.000000
+22:29:31  625 position: 40.000000,12.000000
+22:29:31  626 position: 40.000000,12.000000
+22:29:31  627 position: 40.000000,12.000000
+22:29:31  628 position: 40.000000,12.000000
+22:29:31  629 position: 40.000000,12.000000
+22:29:31  630 position: 40.000000,12.000000
+22:29:31  631 position: 40.000000,12.000000
+22:29:31  632 position: 40.000000,12.000000
+22:29:31  633 position: 40.000000,12.000000
+22:29:31  634 position: 40.000000,12.000000
+22:29:31  635 position: 40.000000,12.000000
+22:29:31  636 position: 40.000000,12.000000
+22:29:31  637 position: 40.000000,12.000000
+22:29:31  638 position: 40.000000,12.000000
+22:29:31  639 position: 40.000000,12.000000
+22:29:31  640 position: 40.000000,12.000000
+22:29:31  641 position: 40.000000,12.000000
+22:29:31  642 position: 40.000000,12.000000
+22:29:31  643 position: 40.000000,12.000000
+22:29:31  643 position: -3.250000,8.000000
+22:29:31  643 WorldManager::isValid(): Event df-collision handled automatically.
+22:29:31  643 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:29:31  643 position: 112.000000,9.000000
+22:29:31  644 position: 40.000000,12.000000
+22:29:31  645 position: 40.000000,12.000000
+22:29:31  646 position: 40.000000,12.000000
+22:29:31  647 position: 40.000000,12.000000
+22:29:31  648 position: 40.000000,12.000000
+22:29:31  649 position: 40.000000,12.000000
+22:29:31  650 position: 40.000000,12.000000
+22:29:32  656 ****************************************************
+22:29:32  656 ** Game engine stopped **

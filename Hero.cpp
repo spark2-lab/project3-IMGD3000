@@ -122,10 +122,9 @@ void Hero::move(int dy)
   move_countdown = move_slowdown;
   // If stays on window, allow move.
   df::Vector new_pos(getPosition().getX(), getPosition().getY() + dy);
-  if ((new_pos.getY() > 3) && (new_pos.getY() < WM.getBoundary().getVertical() - 1))
-  {
+  if ((new_pos.getY() > 3) &&
+      (new_pos.getY() < WM.getBoundary().getVertical()))
     WM.moveObject(this, new_pos);
-  }
 }
 
 // Decrease rate restriction counters.
