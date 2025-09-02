@@ -8,6 +8,7 @@
 #include "EventNuke.h"
 #include "EventView.h"
 #include "GameOver.h"
+#include "DisplayManager.h"
 
 // Take appropriate action according to mouse action.
 void Hero::mouse(const df::EventMouse *p_mouse_event)
@@ -80,6 +81,9 @@ void Hero::nuke()
   df::Sound *p_sound = RM.getSound("nuke");
   if (p_sound)
     p_sound->play();
+
+  // Shake screen (severity 15 pixels x&y, duration 5 frames).
+  DM.shake(15, 15, 5);
 }
 
 // Take appropriate action according to key pressed.

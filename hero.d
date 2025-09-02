@@ -997,4 +997,43 @@ hero.o: hero.cpp ../dragonfly/include/LogManager.h \
   ../dragonfly/include/Hero.h ../dragonfly/include/Reticle.h \
   ../dragonfly/include/Bullet.h ../dragonfly/include/EventCollision.h \
   ../dragonfly/include/EventNuke.h ../dragonfly/include/EventView.h \
-  ../dragonfly/include/GameOver.h
+  ../dragonfly/include/GameOver.h ../dragonfly/include/DisplayManager.h \
+  /opt/homebrew/include/SFML/Graphics.hpp \
+  /opt/homebrew/include/SFML/Graphics/ConvexShape.hpp \
+  /opt/homebrew/include/SFML/Graphics/Font.hpp \
+  /opt/homebrew/include/SFML/Graphics/Glyph.hpp \
+  /opt/homebrew/include/SFML/Graphics/Texture.hpp \
+  /opt/homebrew/include/SFML/Window/GlResource.hpp \
+  /opt/homebrew/include/SFML/Window/Export.hpp \
+  /opt/homebrew/include/SFML/Graphics/Image.hpp \
+  /opt/homebrew/include/SFML/Graphics/RectangleShape.hpp \
+  /opt/homebrew/include/SFML/Graphics/RenderTarget.hpp \
+  /opt/homebrew/include/SFML/Graphics/View.hpp \
+  /opt/homebrew/include/SFML/Graphics/RenderTexture.hpp \
+  /opt/homebrew/include/SFML/Window/ContextSettings.hpp \
+  /opt/homebrew/include/SFML/Graphics/RenderWindow.hpp \
+  /opt/homebrew/include/SFML/Window/VideoMode.hpp \
+  /opt/homebrew/include/SFML/Window/Window.hpp \
+  /opt/homebrew/include/SFML/Window/WindowBase.hpp \
+  /opt/homebrew/include/SFML/Window/Vulkan.hpp \
+  /opt/homebrew/include/SFML/Window/WindowEnums.hpp \
+  /opt/homebrew/include/SFML/Window/WindowHandle.hpp \
+  /opt/homebrew/include/SFML/Window/WindowBase.inl \
+  /opt/homebrew/include/SFML/Window/Event.hpp \
+  /opt/homebrew/include/SFML/Window/Joystick.hpp \
+  /opt/homebrew/include/SFML/Window/Keyboard.hpp \
+  /opt/homebrew/include/SFML/Window/Mouse.hpp \
+  /opt/homebrew/include/SFML/Window/Sensor.hpp \
+  /opt/homebrew/include/SFML/Window/Event.inl \
+  /opt/homebrew/include/SFML/Graphics/Shader.hpp \
+  /opt/homebrew/include/SFML/Graphics/Glsl.hpp \
+  /opt/homebrew/include/SFML/Graphics/Glsl.inl \
+  /opt/homebrew/include/SFML/Graphics/Sprite.hpp \
+  /opt/homebrew/include/SFML/Graphics/Text.hpp \
+  /opt/homebrew/include/SFML/Graphics/VertexBuffer.hpp \
+  /opt/homebrew/include/SFML/Window.hpp \
+  /opt/homebrew/include/SFML/Window/Clipboard.hpp \
+  /opt/homebrew/include/SFML/Window/Context.hpp \
+  /opt/homebrew/include/SFML/Window/Cursor.hpp \
+  /opt/homebrew/include/SFML/Window/Touch.hpp \
+  ../dragonfly/include/Config.h
