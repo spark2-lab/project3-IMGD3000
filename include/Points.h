@@ -10,4 +10,6 @@ class Points : public df::ViewObject
 public:
     Points();
     int eventHandler(const df::Event *p_e) override;
+    static int getHighScore();
+    static void setHighScore(int score);
 };

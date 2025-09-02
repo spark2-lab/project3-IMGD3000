@@ -996,4 +996,4 @@ gameover.o: gameover.cpp ../dragonfly/include/GameOver.h \
   /opt/homebrew/include/SFML/System/Utf.inl \
   /opt/homebrew/include/SFML/System/String.inl \
   ../dragonfly/include/ResourceManager.h ../dragonfly/include/Music.h \
-  ../dragonfly/include/GameStart.h
+  ../dragonfly/include/GameStart.h ../dragonfly/include/Points.h

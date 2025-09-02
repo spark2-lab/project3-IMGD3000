@@ -65,6 +65,13 @@ void GameStart::start()
     p_vo2->setValue(3);
     p_vo2->setColor(df::RED);
 
+    // HIgh Score Display
+    df::ViewObject *p_vo3 = new df::ViewObject; // High Score
+    p_vo3->setLocation(df::BOTTOM_CENTER);
+    p_vo3->setViewString("High Score");
+    p_vo3->setValue(Points::getHighScore());
+    p_vo3->setColor(df::RED);
+
     // When game starts, become inactive.
     setActive(false);
 

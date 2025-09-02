@@ -8,6 +8,7 @@
 #include "Sound.h"
 #include "ResourceManager.h"
 #include "GameStart.h"
+#include "Points.h"
 
 // Count down to end of "message".
 void GameOver::step()
@@ -62,6 +63,14 @@ GameOver::~GameOver()
     for (int i = 0; i < object_list.getCount(); i++)
     {
         df::Object *p_o = object_list[i];
+        if (p_o->getType() == "PointsView")
+        {
+            df::ViewObject *v_o = (df::ViewObject *)p_o;
+            int score = v_o->getValue();
+            LM.writeLog("Score: %d ", score);
+            Points::setHighScore(score);
+            WM.markForDelete(p_o);
+        }
         if (p_o->getType() == "Saucer" || p_o->getType() == "ViewObject")
             WM.markForDelete(p_o);
         if (p_o->getType() == "GameStart")
