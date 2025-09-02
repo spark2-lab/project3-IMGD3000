@@ -54,6 +54,7 @@ GAMESRC= \
   reticle.cpp \
   explosion.cpp \
   eventnuke.cpp \
+  points.cpp \
 
 GAME= game.cpp 
 EXECUTABLE= game

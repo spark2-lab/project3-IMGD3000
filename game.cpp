@@ -5,6 +5,7 @@
 #include "WorldManager.h"
 #include "Hero.h"
 #include "Saucer.h"
+#include "Points.h"
 
 void loadResources(void)
 {
@@ -19,6 +20,8 @@ void populateWorld(void)
 {
 
   new Hero();
+  // Setup heads-up display.
+  new Points(); // points display
   // Spawn some saucers to shoot.
   for (int i = 0; i < 16; i++)
     new Saucer;

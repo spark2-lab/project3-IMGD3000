@@ -6,6 +6,8 @@
 #include "EventOut.h"
 #include "Explosion.h"
 #include "EventNuke.h"
+#include "EventView.h"
+#include "Points.h"
 #include <stdlib.h>
 
 void Saucer::hit(const df::EventCollision *p_c)
@@ -116,4 +118,12 @@ Saucer::Saucer()
 
   // Set starting location in the right of window.
   moveToStart();
+}
+
+Saucer::~Saucer()
+{
+  // Send "view" event with points to interested ViewObjects.
+  // Add 10 points.
+  df::EventView ev(POINTS_STRING, 10, true);
+  WM.onEvent(&ev);
 }
