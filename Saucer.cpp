@@ -5,6 +5,7 @@
 #include "Event.h"
 #include "EventOut.h"
 #include "Explosion.h"
+#include "EventNuke.h"
 #include <stdlib.h>
 
 void Saucer::hit(const df::EventCollision *p_c)
@@ -51,6 +52,17 @@ int Saucer::eventHandler(const df::Event *p_e)
         dynamic_cast<const df::EventCollision *>(p_e);
     hit(p_collision_event);
     return 1;
+  }
+  if (p_e->getType() == NUKE_EVENT)
+  {
+    WM.markForDelete(this);
+
+    // Create an explosion.
+    Explosion *p_explosion = new Explosion;
+    p_explosion->setPosition(this->getPosition());
+
+    // Saucers appear stay around perpetually.
+    new Saucer;
   }
 
   return 0;
@@ -100,6 +112,7 @@ Saucer::Saucer()
   // Set speed in horizontal direction.
   setVelocity(df::Vector(-0.25, 0)); // 1 space left every 4 frame 1/4
   registerInterest(df::COLLISION_EVENT);
+  registerInterest(NUKE_EVENT);
 
   // Set starting location in the right of window.
   moveToStart();

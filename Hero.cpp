@@ -6,6 +6,7 @@
 #include "Hero.h"
 #include "Bullet.h"
 #include "EventMouse.h"
+#include "EventNuke.h"
 
 // Take appropriate action according to mouse action.
 void Hero::mouse(const df::EventMouse *p_mouse_event)
@@ -56,6 +57,17 @@ void Hero::fire(df::Vector target)
   p->setVelocity(v);
 }
 
+void Hero::nuke()
+{
+  // Check if nukes left.
+  if (!nuke_count)
+    return;
+  nuke_count--;
+  // Create "nuke" event and send to interested Objects.
+  EventNuke nuke;
+  WM.onEvent(&nuke);
+}
+
 // Take appropriate action according to key pressed.
 void Hero::kbd(const df::EventKeyboard *p_keyboard_event)
 {
@@ -78,6 +90,11 @@ void Hero::kbd(const df::EventKeyboard *p_keyboard_event)
     if (p_keyboard_event->getKeyboardAction() == df::KEY_RELEASED)
       dy -= 1;
     break;
+  case df::Keyboard::SPACE:
+    if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED)
+      nuke();
+    break;
+
   default:
     return;
   }
@@ -122,6 +139,7 @@ Hero::Hero()
   move_countdown = move_slowdown;
   fire_slowdown = 15;
   fire_countdown = fire_slowdown;
+  nuke_count = 1;
 
   // Link to "ship" sprite.
   setSprite("ship");
