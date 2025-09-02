@@ -56,6 +56,7 @@ GAMESRC= \
   eventnuke.cpp \
   points.cpp \
   star.cpp \
+  gameover.cpp \
 
 GAME= game.cpp 
 EXECUTABLE= game

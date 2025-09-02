@@ -8,6 +8,7 @@
 #include "EventMouse.h"
 #include "EventNuke.h"
 #include "EventView.h"
+#include "GameOver.h"
 
 // Take appropriate action according to mouse action.
 void Hero::mouse(const df::EventMouse *p_mouse_event)
@@ -165,5 +166,10 @@ Hero::Hero()
 
 Hero::~Hero()
 {
-  GM.setGameOver();
+  // Create GameOver object.
+  new GameOver;
+  // Mark Reticle for deletion.
+  WM.markForDelete(p_reticle);
+  // Make a big explosion with particles.
+  df::addParticles(df::SPARKS, getPosition(), 4, df::RED);
 }
