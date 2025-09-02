@@ -2,6 +2,7 @@
 #include "EventKeyboard.h"
 #include "Reticle.h"
 #include "EventMouse.h"
+#include "EventCollision.h"
 
 class Hero : public df::Object
 {
@@ -13,6 +14,7 @@ private:
   void mouse(const df::EventMouse *p_mouse_event);
   void fire(df::Vector target);
   void nuke();
+  void hit(const df::EventCollision *p_c);
 
   int dy;
   int move_slowdown;
@@ -20,6 +22,7 @@ private:
   int fire_slowdown;
   int fire_countdown;
   int nuke_count;
+  int lives;
 
   Reticle *p_reticle;
 

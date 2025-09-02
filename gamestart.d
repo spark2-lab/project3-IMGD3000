@@ -888,7 +888,7 @@ gamestart.o: gamestart.cpp ../dragonfly/include/EventKeyboard.h \
   ../dragonfly/include/ObjectList.h \
   ../dragonfly/include/ObjectListIterator.h ../dragonfly/include/Hero.h \
   ../dragonfly/include/Reticle.h ../dragonfly/include/EventMouse.h \
-  ../dragonfly/include/Saucer.h ../dragonfly/include/EventCollision.h \
+  ../dragonfly/include/EventCollision.h ../dragonfly/include/Saucer.h \
   ../dragonfly/include/Points.h ../dragonfly/include/ViewObject.h \
   ../dragonfly/include/WorldManager.h ../dragonfly/include/Circle.h \
   ../dragonfly/include/Line.h ../dragonfly/include/SceneGraph.h \

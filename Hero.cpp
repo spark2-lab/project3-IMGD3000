@@ -9,6 +9,7 @@
 #include "EventView.h"
 #include "GameOver.h"
 #include "DisplayManager.h"
+#include "Explosion.h"
 
 // Take appropriate action according to mouse action.
 void Hero::mouse(const df::EventMouse *p_mouse_event)
@@ -22,6 +23,13 @@ void Hero::mouse(const df::EventMouse *p_mouse_event)
 // Event handler respond to keyboard
 int Hero::eventHandler(const df::Event *p_e)
 {
+  if (p_e->getType() == df::COLLISION_EVENT)
+  {
+    const df::EventCollision *p_collision_event =
+        dynamic_cast<const df::EventCollision *>(p_e);
+    hit(p_collision_event);
+    return 1;
+  }
   if (p_e->getType() == df::KEYBOARD_EVENT)
   {
     const df::EventKeyboard *p_keyboard_event =
@@ -42,6 +50,7 @@ int Hero::eventHandler(const df::Event *p_e)
     mouse(p_mouse_event);
     return 1;
   }
+
   return 0;
 }
 
@@ -131,6 +140,44 @@ void Hero::move(int dy)
     WM.moveObject(this, new_pos);
 }
 
+void Hero::hit(const df::EventCollision *p_c)
+{
+  // If Saucer, mark Saucer for destruction. lives - 1. Descturct hero if lives eq 0.
+  int destroyed = 0;
+  if ((p_c->getObject1()->getType()) == "Saucer")
+  {
+    WM.markForDelete(p_c->getObject1());
+    // Create an explosion.
+    Explosion *p_explosion = new Explosion;
+    p_explosion->setPosition(p_c->getObject1()->getPosition());
+    destroyed = 1;
+  }
+  if ((p_c->getObject2()->getType()) == "Saucer")
+  {
+    WM.markForDelete(p_c->getObject2());
+    // Create an explosion.
+    Explosion *p_explosion = new Explosion;
+    p_explosion->setPosition(p_c->getObject2()->getPosition());
+    destroyed = 1;
+  }
+  if (destroyed)
+  {
+    lives--;
+    df::EventView ev("Lives", -1, true);
+    WM.onEvent(&ev);
+
+    // Play "explode" sound.
+    df::Sound *p_sound = RM.getSound("explode");
+    if (p_sound)
+      p_sound->play();
+
+    if (lives == 0)
+    {
+      WM.markForDelete(this);
+    }
+  }
+}
+
 // Decrease rate restriction counters.
 void Hero::step()
 {
@@ -157,6 +204,7 @@ Hero::Hero()
   fire_slowdown = 15;
   fire_countdown = fire_slowdown;
   nuke_count = 1;
+  lives = 3;
 
   // Link to "ship" sprite.
   setSprite("ship");
@@ -165,6 +213,7 @@ Hero::Hero()
   registerInterest(df::KEYBOARD_EVENT);
   registerInterest(df::STEP_EVENT);
   registerInterest(df::MSE_EVENT);
+  registerInterest(df::COLLISION_EVENT);
 
   // Hero on left edge of the window, mid way down verti
   setType("Hero");

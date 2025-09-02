@@ -58,6 +58,13 @@ void GameStart::start()
     p_vo->setValue(1);
     p_vo->setColor(df::YELLOW);
 
+    // Lives Display
+    df::ViewObject *p_vo2 = new df::ViewObject; // Count of lives.
+    p_vo2->setLocation(df::TOP_CENTER);
+    p_vo2->setViewString("Lives");
+    p_vo2->setValue(3);
+    p_vo2->setColor(df::RED);
+
     // When game starts, become inactive.
     setActive(false);
 

@@ -34,14 +34,6 @@ void Saucer::hit(const df::EventCollision *p_c)
     // Saucers appear stay around perpetually.
     new Saucer;
   }
-
-  // If Hero, mark both objects for destruction.
-  if (((p_c->getObject1()->getType()) == "Hero") ||
-      ((p_c->getObject2()->getType()) == "Hero"))
-  {
-    WM.markForDelete(p_c->getObject1());
-    WM.markForDelete(p_c->getObject2());
-  }
 }
 
 // Get invoked with every even game world passes to Object

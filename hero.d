@@ -995,7 +995,7 @@ hero.o: hero.cpp ../dragonfly/include/LogManager.h \
   ../dragonfly/include/Music.h ../dragonfly/include/Sound.h \
   ../dragonfly/include/GameManager.h ../dragonfly/include/EventStep.h \
   ../dragonfly/include/Hero.h ../dragonfly/include/Reticle.h \
-  ../dragonfly/include/Bullet.h ../dragonfly/include/EventCollision.h \
+  ../dragonfly/include/EventCollision.h ../dragonfly/include/Bullet.h \
   ../dragonfly/include/EventNuke.h ../dragonfly/include/EventView.h \
   ../dragonfly/include/GameOver.h ../dragonfly/include/DisplayManager.h \
   /opt/homebrew/include/SFML/Graphics.hpp \
@@ -1036,4 +1036,4 @@ hero.o: hero.cpp ../dragonfly/include/LogManager.h \
   /opt/homebrew/include/SFML/Window/Context.hpp \
   /opt/homebrew/include/SFML/Window/Cursor.hpp \
   /opt/homebrew/include/SFML/Window/Touch.hpp \
-  ../dragonfly/include/Config.h
+  ../dragonfly/include/Config.h ../dragonfly/include/Explosion.h
