@@ -995,4 +995,4 @@ game: game.cpp ../dragonfly/include/ResourceManager.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/set \
   ../dragonfly/include/Hero.h ../dragonfly/include/Reticle.h \
   ../dragonfly/include/Saucer.h ../dragonfly/include/EventCollision.h \
-  ../dragonfly/include/Points.h
+  ../dragonfly/include/Points.h ../dragonfly/include/Star.h

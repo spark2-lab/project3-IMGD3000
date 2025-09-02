@@ -7,6 +7,7 @@
 #include "Saucer.h"
 #include "Points.h"
 #include "Color.h"
+#include "Star.h"
 
 void loadResources(void)
 {
@@ -29,6 +30,10 @@ void populateWorld(void)
   p_vo->setViewString("Nukes");
   p_vo->setValue(1);
   p_vo->setColor(df::YELLOW);
+
+  // Create some Stars.
+  for (int i = 0; i < 16; i++)
+    new Star;
 
   // Spawn some saucers to shoot.
   for (int i = 0; i < 16; i++)
