@@ -1,4 +1,3 @@
-#include "GameStart.h"
 #include "EventKeyboard.h"
 #include "GameManager.h"
 #include "Hero.h"
@@ -6,6 +5,9 @@
 #include "Points.h"
 #include "WorldManager.h"
 #include "EventMouse.h"
+#include "Music.h"
+#include "GameStart.h"
+#include "ResourceManager.h"
 
 int GameStart::eventHandler(const df::Event *p_e)
 {
@@ -58,6 +60,14 @@ void GameStart::start()
 
     // When game starts, become inactive.
     setActive(false);
+
+    // Pause start music.
+    p_music->pause();
+}
+
+void GameStart::playMusic()
+{
+    p_music->play();
 }
 
 GameStart::GameStart()
@@ -69,4 +79,8 @@ GameStart::GameStart()
 
     // Put in center of window.
     setLocation(df::CENTER_CENTER);
+
+    // Play start music.
+    p_music = RM.getMusic("start music");
+    playMusic();
 }

@@ -56,6 +56,11 @@ void Hero::fire(df::Vector target)
   v.scale(1);
   Bullet *p = new Bullet(getPosition());
   p->setVelocity(v);
+
+  // Play "fire" sound.
+  df::Sound *p_sound = RM.getSound("fire");
+  if (p_sound)
+    p_sound->play();
 }
 
 void Hero::nuke()
@@ -70,6 +75,11 @@ void Hero::nuke()
   // Send "view" event with nukes to interested ViewObjects.
   df::EventView ev("Nukes", -1, true);
   WM.onEvent(&ev);
+
+  // Play "nuke" sound.
+  df::Sound *p_sound = RM.getSound("nuke");
+  if (p_sound)
+    p_sound->play();
 }
 
 // Take appropriate action according to key pressed.

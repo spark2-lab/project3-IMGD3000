@@ -5,6 +5,9 @@
 #include "LogManager.h"
 #include "WorldManager.h"
 #include "EventStep.h"
+#include "Sound.h"
+#include "ResourceManager.h"
+#include "GameStart.h"
 
 // Count down to end of "message".
 void GameOver::step()
@@ -44,6 +47,11 @@ GameOver::GameOver()
 
     // Register for step event.
     registerInterest(df::STEP_EVENT);
+
+    // Play "game over" sound.
+    df::Sound *p_sound = RM.getSound("game over");
+    if (p_sound)
+        p_sound->play();
 }
 
 GameOver::~GameOver()
@@ -58,5 +66,11 @@ GameOver::~GameOver()
             WM.markForDelete(p_o);
         if (p_o->getType() == "GameStart")
             p_o->setActive(true);
+
+        if (p_o->getType() == "GameStart")
+        {
+            p_o->setActive(true);
+            dynamic_cast<GameStart *>(p_o)->playMusic(); // Resume start music.
+        }
     }
 }

@@ -26,6 +26,11 @@ void Saucer::hit(const df::EventCollision *p_c)
     Explosion *p_explosion = new Explosion;
     p_explosion->setPosition(this->getPosition());
 
+    // Play "explode" sound.
+    df::Sound *p_sound = RM.getSound("explode");
+    if (p_sound)
+      p_sound->play();
+
     // Saucers appear stay around perpetually.
     new Saucer;
   }
