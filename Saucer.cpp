@@ -26,6 +26,14 @@ void Saucer::hit(const df::EventCollision *p_c)
     // Saucers appear stay around perpetually.
     new Saucer;
   }
+
+  // If Hero, mark both objects for destruction.
+  if (((p_c->getObject1()->getType()) == "Hero") ||
+      ((p_c->getObject2()->getType()) == "Hero"))
+  {
+    WM.markForDelete(p_c->getObject1());
+    WM.markForDelete(p_c->getObject2());
+  }
 }
 
 // Get invoked with every even game world passes to Object
@@ -55,6 +63,8 @@ void Saucer::out()
     return;
   }
   moveToStart();
+  // Spawn new Saucer to make the game get harder.
+  new Saucer;
 }
 
 void Saucer::moveToStart()
@@ -69,6 +79,14 @@ void Saucer::moveToStart()
 
   // y is in vertical range
   temp_pos.setY(rand() % (int)(world_vert - 1) + 1.0f);
+
+  // If collision, move right slightly until empty space.
+  df::ObjectList collision_list = WM.getCollisions(this, temp_pos);
+  while (collision_list.getCount() != 0)
+  {
+    temp_pos.setX(temp_pos.getX() + 1);
+    collision_list = WM.getCollisions(this, temp_pos);
+  }
 
   WM.moveObject(this, temp_pos);
 }

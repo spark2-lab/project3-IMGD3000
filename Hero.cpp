@@ -140,3 +140,8 @@ Hero::Hero()
   p_reticle = new Reticle();
   p_reticle->draw();
 }
+
+Hero::~Hero()
+{
+  GM.setGameOver();
+}

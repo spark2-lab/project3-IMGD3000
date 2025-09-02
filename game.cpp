@@ -17,8 +17,11 @@ void loadResources(void)
 
 void populateWorld(void)
 {
-  new Saucer();
+
   new Hero();
+  // Spawn some saucers to shoot.
+  for (int i = 0; i < 16; i++)
+    new Saucer;
 }
 
 int main(int argc, char *argv[])
