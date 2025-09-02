@@ -5,7 +5,6 @@
 #include "EventStep.h"
 #include "Hero.h"
 #include "Bullet.h"
-#include "EventMouse.h"
 #include "EventNuke.h"
 #include "EventView.h"
 #include "GameOver.h"
@@ -81,7 +80,7 @@ void Hero::kbd(const df::EventKeyboard *p_keyboard_event)
   {
   case df::Keyboard::Q: // quit
     if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED)
-      GM.setGameOver();
+      WM.markForDelete(this);
     break;
   case df::Keyboard::W: // up
     if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED)

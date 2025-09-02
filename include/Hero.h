@@ -1,6 +1,7 @@
 #include "Object.h"
 #include "EventKeyboard.h"
 #include "Reticle.h"
+#include "EventMouse.h"
 
 class Hero : public df::Object
 {

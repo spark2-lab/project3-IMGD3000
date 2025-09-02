@@ -57,6 +57,7 @@ GAMESRC= \
   points.cpp \
   star.cpp \
   gameover.cpp \
+  gamestart.cpp \
 
 GAME= game.cpp 
 EXECUTABLE= game

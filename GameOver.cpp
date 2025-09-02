@@ -48,5 +48,15 @@ GameOver::GameOver()
 
 GameOver::~GameOver()
 {
-    GM.setGameOver();
+
+    // Remove Saucers and ViewObjects, re-activate GameStart.
+    df::ObjectList object_list = WM.getAllObjects(true);
+    for (int i = 0; i < object_list.getCount(); i++)
+    {
+        df::Object *p_o = object_list[i];
+        if (p_o->getType() == "Saucer" || p_o->getType() == "ViewObject")
+            WM.markForDelete(p_o);
+        if (p_o->getType() == "GameStart")
+            p_o->setActive(true);
+    }
 }
