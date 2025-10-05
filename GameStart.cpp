@@ -2,9 +2,8 @@
 #include "GameManager.h"
 #include "Hero.h"
 #include "Pterodactyl.h"
-#include "PterodactylSpawner.h"
 #include "SmallDino.h"
-#include "SmallDinoSpawner.h"
+#include "EnemySpawner.h"
 #include "Points.h"
 #include "WorldManager.h"
 #include "EventMouse.h"
@@ -47,9 +46,8 @@ void GameStart::start()
     // Create hero.
     new Hero;
 
-    // Create enemy spawners (spawn at regular intervals).
-    new PterodactylSpawner;
-    new SmallDinoSpawner;
+    // Create enemy spawner (spawns randomly without overlapping).
+    new EnemySpawner;
 
     // Setup heads-up display.
     new Points; // Points display.
