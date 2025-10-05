@@ -207,7 +207,15 @@ Hero::Hero()
   lives = 3;
 
   // Link to "ship" sprite.
-  setSprite("ship");
+  int ret = setSprite("ship");
+  if (ret != 0)
+  {
+    LM.writeLog("set sprite failed!!!!");
+  }
+  else
+  {
+    LM.writeLog("set sprite suceed!!!!");
+  }
 
   // Object registered in keyboard event
   registerInterest(df::KEYBOARD_EVENT);
@@ -217,7 +225,7 @@ Hero::Hero()
 
   // Hero on left edge of the window, mid way down verti
   setType("Hero");
-  df::Vector p(7, WM.getBoundary().getVertical() / 2);
+  df::Vector p(10, WM.getBoundary().getVertical() / 2);
   setPosition(p);
 
   // Create reticle for firing bullets.

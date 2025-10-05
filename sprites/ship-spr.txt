@@ -1,18 +1,26 @@
 <HEADER>
 frames 2
-width 4
-height 3
-color blue
+width 8
+height 7
+color green
 slowdown 3
 </HEADER>
 <BODY>
-\   
-~==-
-/   
+    OO  
+   OOOOD
+   OO   
+   OOOoo
+/ooOO   
+   O    
+   Ooo  
 end
-\   
- ==-
-/   
+    OO  
+   OOOOD
+   OO   
+   OOOoo
+/ooOO   
+   O    
+  Ooo   
 end
 </BODY>
 <FOOTER>
