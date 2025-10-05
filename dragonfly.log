@@ -1,308 +1,307 @@
-22:09:59    0 ****************************************************
-22:09:59    0 ** Dragonfly version 4.22 **
-22:09:59    0 ** Game engine started **
-22:09:59    0 ****************************************************
-22:10:00    1 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
-22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
-22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
-22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
-22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
-22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
-22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
-22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
-22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
-22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
-22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
-22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
-22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
-22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
-22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
-22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
-22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
-22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-22:10:03   10 set sprite suceed!!!!
-22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
-22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
-22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:10:03   10 position: 140.000000,11.000000
-22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
-22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:10:03   10 position: 116.000000,6.000000
-22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
-22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:10:03   10 position: 157.000000,15.000000
-22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
-22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:10:03   10 position: 157.000000,11.000000
-22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
-22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:10:03   10 position: 106.000000,13.000000
-22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
-22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:10:03   10 position: 110.000000,17.000000
-22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
-22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:10:03   10 position: 109.000000,7.000000
-22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
-22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:10:03   10 position: 97.000000,12.000000
-22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
-22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:10:03   10 position: 159.000000,20.000000
-22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
-22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:10:03   10 position: 147.000000,12.000000
-22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
-22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:10:03   10 position: 150.000000,9.000000
-22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
-22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:10:03   10 position: 135.000000,23.000000
-22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
-22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:10:03   10 position: 107.000000,20.000000
-22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
-22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:10:03   10 position: 150.000000,16.000000
-22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
-22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:10:03   10 position: 113.000000,13.000000
-22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
-22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-22:10:03   10 position: 103.000000,17.000000
-22:10:09  184 Object::Object(): Error! Unable to add 0x14289a400 to game world.
-22:10:09  184 SceneGraph::removeObject(): Error removing Object (id 42)! Pointer is 0x14289a400.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14289b000 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14289bc00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14289c800 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14289d400 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14289e000 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14289ec00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14289f800 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428a0400 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428a1200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428a1e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428a2a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428a3600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428a4200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428a4e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428a5a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428a6600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428a7200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428a7e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428a8a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428a9600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428aa200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428aae00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428aba00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428ac600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428ad200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428ade00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428aea00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428af600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428b0200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428b0e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428b1a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428b2600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428b3200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428b3e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428b4a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428b5600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428b6200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428b6e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428b7a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428b8600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428b9200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428b9e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428baa00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428bb600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428bc200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428bce00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428bda00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428be600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428bf200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428bfe00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428c0a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428c1600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428c2200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428c2e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428c3a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428c4600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428c5200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428c5e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428c6a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428c7a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428c8600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428c9200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428ca200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428cae00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428cba00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428cce00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428cda00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428ce600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428cf200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428cfe00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428d0a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428d1600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428d2200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428d2e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428d3a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428d4600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428d5200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428d5e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428d6a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428d7600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428d8200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428d8e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428d9a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428da600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428db200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428dbe00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428dca00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428dd600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428de200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428dee00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428dfa00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428e0600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428e1200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428e1e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428e2a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428e3600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428e4200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428e4e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428e5a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428e6600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428e7200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428e7e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428e8a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428e9600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428ea200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428eae00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428eba00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428ec600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428ed200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428ede00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428eea00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428ef600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428f0200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428f0e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428f1a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428f2600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428f3200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428f3e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428f4a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428f5600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428f6200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428f6e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428f7a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428f8e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428f9a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428fa600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428fba00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428fc600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428fd200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428fee00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x1428ffa00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142900600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142901200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142901e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142902a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142903600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142904200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142904e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142905a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142906600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142907200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142907e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142908a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142909600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14290a200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14290ae00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14290ba00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14290c600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14290d200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14290de00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14290ea00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14290f600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142910200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142910e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142911a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142912600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142913200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142913e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142914a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142915600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142916200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142916e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142917a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142918600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142919200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142919e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14291aa00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14291b600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14291c200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14291ce00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14291da00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14291e600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14291f200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14291fe00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142920a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142921600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142922200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142922e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142923a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142924600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142925200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142925e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142926a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142927600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142928200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142928e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142929a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14292a600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14292b200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14292be00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14292ca00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14292d600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14292e200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14292ee00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x14292fa00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142930600 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142931200 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142931e00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142932a00 to game world.
-22:10:09  184 Object::Object(): Error! Unable to add 0x142933600 to game world.
-22:10:09  184 position: 40.000000,12.000000
-22:10:09  184 position: 40.000000,12.000000
-22:10:09  184 position: 40.000000,12.000000
-22:10:09  184 position: 40.000000,12.000000
-22:10:09  184 position: 40.000000,12.000000
-22:10:09  184 position: 40.000000,12.000000
-22:10:09  184 position: 40.000000,12.000000
-22:10:09  184 position: 40.000000,12.000000
-22:10:09  184 position: 40.000000,12.000000
-22:10:09  184 position: 40.000000,12.000000
-22:10:09  184 position: 40.000000,12.000000
-22:10:09  184 position: 40.000000,12.000000
-22:10:09  184 position: 40.000000,12.000000
-22:10:09  184 position: 40.000000,12.000000
-22:10:09  184 position: 40.000000,12.000000
-22:10:09  184 position: 40.000000,12.000000
-22:10:09  184 ****************************************************
-22:10:09  184 ** Game engine stopped **
+22:12:54    0 ****************************************************
+22:12:54    0 ** Dragonfly version 4.22 **
+22:12:54    0 ** Game engine started **
+22:12:54    0 ****************************************************
+22:12:57   90 WorldManager::isValid(): Event df-out handled automatically.
+22:12:57   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:12:57   90 WorldManager::isValid(): Event df-out handled automatically.
+22:12:57   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:12:57   90 WorldManager::isValid(): Event df-out handled automatically.
+22:12:57   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:12:57   90 WorldManager::isValid(): Event df-out handled automatically.
+22:12:57   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:12:57   90 WorldManager::isValid(): Event df-out handled automatically.
+22:12:57   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:12:57   90 WorldManager::isValid(): Event df-out handled automatically.
+22:12:57   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:12:57   90 WorldManager::isValid(): Event df-out handled automatically.
+22:12:57   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:12:57   90 WorldManager::isValid(): Event df-out handled automatically.
+22:12:57   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:12:57   90 WorldManager::isValid(): Event df-out handled automatically.
+22:12:57   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:12:57   90 WorldManager::isValid(): Event df-out handled automatically.
+22:12:57   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:12:57   90 WorldManager::isValid(): Event df-out handled automatically.
+22:12:57   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:12:57   90 WorldManager::isValid(): Event df-out handled automatically.
+22:12:57   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:12:57   90 WorldManager::isValid(): Event df-out handled automatically.
+22:12:57   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:12:57   90 WorldManager::isValid(): Event df-out handled automatically.
+22:12:57   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:12:57   90 WorldManager::isValid(): Event df-out handled automatically.
+22:12:57   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:12:57   90 WorldManager::isValid(): Event df-out handled automatically.
+22:12:57   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:12:57   15 set sprite suceed!!!!
+22:12:57   15 WorldManager::isValid(): Event df-collision handled automatically.
+22:12:57   15 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:12:57   15 WorldManager::isValid(): Event df-collision handled automatically.
+22:12:57   15 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:12:57   15 position: 150.000000,18.000000
+22:12:57   15 WorldManager::isValid(): Event df-collision handled automatically.
+22:12:57   15 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:12:57   15 position: 92.000000,15.000000
+22:12:57   15 WorldManager::isValid(): Event df-collision handled automatically.
+22:12:57   15 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:12:57   15 position: 157.000000,19.000000
+22:12:57   15 WorldManager::isValid(): Event df-collision handled automatically.
+22:12:57   15 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:12:57   15 position: 126.000000,16.000000
+22:12:57   15 WorldManager::isValid(): Event df-collision handled automatically.
+22:12:57   15 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:12:57   15 position: 98.000000,5.000000
+22:12:57   15 WorldManager::isValid(): Event df-collision handled automatically.
+22:12:57   15 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:12:57   15 position: 142.000000,9.000000
+22:12:57   15 WorldManager::isValid(): Event df-collision handled automatically.
+22:12:57   15 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:12:57   15 position: 141.000000,20.000000
+22:12:57   15 WorldManager::isValid(): Event df-collision handled automatically.
+22:12:57   15 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:12:57   15 position: 99.000000,17.000000
+22:12:57   15 WorldManager::isValid(): Event df-collision handled automatically.
+22:12:57   15 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:12:57   15 position: 148.000000,22.000000
+22:12:57   15 WorldManager::isValid(): Event df-collision handled automatically.
+22:12:57   15 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:12:57   15 position: 131.000000,21.000000
+22:12:57   15 WorldManager::isValid(): Event df-collision handled automatically.
+22:12:57   15 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:12:57   15 position: 116.000000,17.000000
+22:12:57   15 WorldManager::isValid(): Event df-collision handled automatically.
+22:12:57   15 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:12:57   15 position: 164.000000,20.000000
+22:12:57   15 WorldManager::isValid(): Event df-collision handled automatically.
+22:12:57   15 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:12:57   15 position: 89.000000,22.000000
+22:12:57   15 WorldManager::isValid(): Event df-collision handled automatically.
+22:12:57   15 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:12:57   15 position: 98.000000,12.000000
+22:12:57   15 WorldManager::isValid(): Event df-collision handled automatically.
+22:12:57   15 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:12:57   15 position: 118.000000,6.000000
+22:12:57   15 WorldManager::isValid(): Event df-collision handled automatically.
+22:12:57   15 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:12:57   15 position: 106.000000,5.000000
+22:13:04  217 Object::Object(): Error! Unable to add 0x1378c7a00 to game world.
+22:13:04  217 SceneGraph::removeObject(): Error removing Object (id 42)! Pointer is 0x1378c7a00.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137927a00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13792d400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137920800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137921400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13793d200 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13793de00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13793ea00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137922e00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137923a00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137924600 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137925200 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137958400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137959000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137959c00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13795a800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13795b400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13795c000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13795cc00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13795d800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13795e400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13795f000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13795fc00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137967a00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137968600 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137969200 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137969e00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13796aa00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13796b600 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13796c200 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13796ce00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13796da00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13796e600 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13796f200 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137970000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137970c00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137971800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137972400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137973000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137973c00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137974800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137975400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137976000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137976c00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137977800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137978400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137979000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137979c00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13797a800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13797b400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13797c000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13797cc00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13797d800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13797e400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13797f000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13797fc00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137980800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137981400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137982000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137982c00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137983800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137984400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137985000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137985c00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137986800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137987400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137988000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137988c00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137989800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13798a400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13798b000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13798bc00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13798c800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13798d400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13798e000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13798ec00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13798f800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137990400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137991000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137991c00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137992800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137993400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137994000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137994c00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137995800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137996400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137997000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137997c00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137998800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x137999400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13799a000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13799ac00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13799b800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13799c400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13799d000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13799dc00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13799e800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x13799f400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379a0000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379a0c00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379a1800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379a2400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379a3000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379a3c00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379a4800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379a5400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379a6000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379a6c00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379a7800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379a8400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379a9000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379a9c00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379aa800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379ab400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379ac000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379acc00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379ad800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379ae400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379af000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379afc00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379b0800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379b1400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379b2000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379b2c00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379b3800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379b4400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379b5000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379b5c00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379b6800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379b7400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379b9000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379b9c00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379ba800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379bb400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379bc000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379bcc00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379bd800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379be400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379bf000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379bfc00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379c0800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379c1400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379c2000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379c2c00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379c3800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379c4400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379c5000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379c5c00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379c6800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379c7400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379c8000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379c8c00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379c9800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379ca400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379cb000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379cbc00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379cc800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379cd400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379ce000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379cec00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379cf800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379d0400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379d1000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379d1c00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379d2800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379d3400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379d4000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379d4c00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379d5800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379d6400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379d7000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379d7c00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379d8800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379d9400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379da000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379dac00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379db800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379dc400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379dd000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379ddc00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379de800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379df400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379e0000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379e0c00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379e1800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379e2400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379e3000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379e3c00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379e4800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379e5400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379e6000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379e6c00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379e7800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379e8400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379e9000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379e9c00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379ea800 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379eb400 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379ec000 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379ecc00 to game world.
+22:13:04  217 Object::Object(): Error! Unable to add 0x1379ed800 to game world.
+22:13:04  217 position: 40.000000,12.000000
+22:13:04  217 position: 40.000000,12.000000
+22:13:04  217 position: 40.000000,12.000000
+22:13:04  217 position: 40.000000,12.000000
+22:13:04  217 position: 40.000000,12.000000
+22:13:04  217 position: 40.000000,12.000000
+22:13:04  217 position: 40.000000,12.000000
+22:13:04  217 position: 40.000000,12.000000
+22:13:04  217 position: 40.000000,12.000000
+22:13:04  217 position: 40.000000,12.000000
+22:13:04  217 position: 40.000000,12.000000
+22:13:04  217 position: 40.000000,12.000000
+22:13:04  217 position: 40.000000,12.000000
+22:13:04  217 position: 40.000000,12.000000
+22:13:04  217 position: 40.000000,12.000000
+22:13:04  217 position: 40.000000,12.000000
+22:13:04  217 ****************************************************
+22:13:04  217 ** Game engine stopped **
