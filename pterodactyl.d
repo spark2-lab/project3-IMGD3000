@@ -995,6 +995,6 @@ pterodactyl.o: pterodactyl.cpp ../dragonfly/include/Pterodactyl.h \
   /opt/homebrew/include/SFML/System/Utf.inl \
   /opt/homebrew/include/SFML/System/String.inl \
   ../dragonfly/include/Music.h ../dragonfly/include/Sound.h \
-  ../dragonfly/include/EventOut.h ../dragonfly/include/Explosion.h \
-  ../dragonfly/include/EventNuke.h ../dragonfly/include/EventView.h \
-  ../dragonfly/include/Points.h
+  ../dragonfly/include/EventOut.h ../dragonfly/include/EventStep.h \
+  ../dragonfly/include/Explosion.h ../dragonfly/include/EventNuke.h \
+  ../dragonfly/include/EventView.h ../dragonfly/include/Points.h

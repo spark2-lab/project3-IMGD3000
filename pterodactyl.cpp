@@ -4,6 +4,7 @@
 #include "ResourceManager.h"
 #include "Event.h"
 #include "EventOut.h"
+#include "EventStep.h"
 #include "Explosion.h"
 #include "EventNuke.h"
 #include "EventView.h"
@@ -57,8 +58,21 @@ int Pterodactyl::eventHandler(const df::Event *p_e)
     Explosion *p_explosion = new Explosion;
     p_explosion->setPosition(this->getPosition());
   }
+  if (p_e->getType() == df::STEP_EVENT)
+  {
+    step();
+    return 1;
+  }
 
   return 0;
+}
+
+void Pterodactyl::step()
+{
+  // Gradually increase speed (accelerate to the left)
+  df::Vector current_vel = getVelocity();
+  current_vel.setX(current_vel.getX() - acceleration);
+  setVelocity(current_vel);
 }
 
 void Pterodactyl::out()
@@ -105,8 +119,10 @@ Pterodactyl::Pterodactyl()
 
   // Set speed in horizontal direction.
   setVelocity(df::Vector(-0.5, 0)); // 1 space left every 2 frames
+  acceleration = 0.05; // Much faster acceleration
   registerInterest(df::COLLISION_EVENT);
   registerInterest(NUKE_EVENT);
+  registerInterest(df::STEP_EVENT);
 
   // Set starting location in the right of window.
   moveToStart();

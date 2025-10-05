@@ -7,6 +7,8 @@ private:
   void hit(const df::EventCollision *p_c);
   void out();
   void moveToStart();
+  void step();
+  float acceleration;
 
 public:
   Pterodactyl();
