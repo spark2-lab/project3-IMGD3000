@@ -13,7 +13,7 @@
 void loadResources(void)
 {
   // Load saucer sprite.
-  RM.loadSprite("sprites/pterodactyl-spr.txt", "saucer");
+  RM.loadSprite("sprites/pterodactyl-spr.txt", "pterodactyl");
   RM.loadSprite("sprites/dino-spr.txt", "dino");
   RM.loadSprite("sprites/bullet-spr.txt", "bullet");
   RM.loadSprite("sprites/explosion-spr.txt", "explosion");

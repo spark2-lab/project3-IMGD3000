@@ -71,7 +71,7 @@ GameOver::~GameOver()
             Points::setHighScore(score);
             WM.markForDelete(p_o);
         }
-        if (p_o->getType() == "Saucer" || p_o->getType() == "ViewObject")
+        if (p_o->getType() == "Pterodactyl" || p_o->getType() == "ViewObject")
             WM.markForDelete(p_o);
         if (p_o->getType() == "GameStart")
             p_o->setActive(true);

@@ -12,9 +12,9 @@
 
 void Saucer::hit(const df::EventCollision *p_c)
 {
-  // If Saucer hit Saucer, ignore.
-  if ((p_c->getObject1()->getType() == "Saucer") &&
-      (p_c->getObject2()->getType() == "Saucer"))
+  // If Pterodactyl hit Pterodactyl, ignore.
+  if ((p_c->getObject1()->getType() == "Pterodactyl") &&
+      (p_c->getObject2()->getType() == "Pterodactyl"))
     return;
 
   // If Bullet...
@@ -107,9 +107,9 @@ void Saucer::moveToStart()
 
 Saucer::Saucer()
 {
-  // Setup "saucer" sprite
-  setSprite("saucer");
-  setType("Saucer");
+  // Setup "pterodactyl" sprite
+  setSprite("pterodactyl");
+  setType("Pterodactyl");
 
   // Set speed in horizontal direction.
   setVelocity(df::Vector(-0.25, 0)); // 1 space left every 4 frame 1/4
