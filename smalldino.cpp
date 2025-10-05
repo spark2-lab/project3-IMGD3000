@@ -94,8 +94,8 @@ void SmallDino::moveToStart()
   // x is off right side of window
   temp_pos.setX(world_horiz + rand() % (int)world_horiz + 3.0f);
 
-  // y is in one of three tiers (top, middle, bottom).
-  int tier = rand() % 3; // 0 = top, 1 = middle, 2 = bottom
+  // y is in bottom tier only.
+  int tier = 2; // 2 = bottom tier
   float tier_height = world_vert / 3.0f;
   float tier_y = tier_height * tier + tier_height / 2;
   temp_pos.setY(tier_y);
