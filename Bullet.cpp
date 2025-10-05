@@ -5,12 +5,14 @@
 #include "Vector.h"
 #include "EventOut.h"
 
-// If Bullet hits Pterodactyl, mark Pterodactyl and Bullet for deletion.
+// If Bullet hits Pterodactyl or SmallDino, mark them and Bullet for deletion.
 void Bullet::hit(const df::EventCollision *p_collision_event)
 {
     LM.writeLog("Collision Event");
     if ((p_collision_event->getObject1()->getType() == "Pterodactyl") ||
-        (p_collision_event->getObject2()->getType() == "Pterodactyl"))
+        (p_collision_event->getObject2()->getType() == "Pterodactyl") ||
+        (p_collision_event->getObject1()->getType() == "SmallDino") ||
+        (p_collision_event->getObject2()->getType() == "SmallDino"))
     {
         WM.markForDelete(p_collision_event->getObject1());
         WM.markForDelete(p_collision_event->getObject2());

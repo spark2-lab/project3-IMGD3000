@@ -50,6 +50,8 @@ LINKDIR:= $(LINKDIR) -L $(LOCALSFML)/lib
 GAMESRC= \
   pterodactyl.cpp \
   pterodactylspawner.cpp \
+  smalldino.cpp \
+  smalldinospawner.cpp \
   hero.cpp \
   bullet.cpp \
   reticle.cpp \

@@ -3,6 +3,8 @@
 #include "Hero.h"
 #include "Pterodactyl.h"
 #include "PterodactylSpawner.h"
+#include "SmallDino.h"
+#include "SmallDinoSpawner.h"
 #include "Points.h"
 #include "WorldManager.h"
 #include "EventMouse.h"
@@ -45,8 +47,9 @@ void GameStart::start()
     // Create hero.
     new Hero;
 
-    // Create pterodactyl spawner (spawns at regular intervals).
+    // Create enemy spawners (spawn at regular intervals).
     new PterodactylSpawner;
+    new SmallDinoSpawner;
 
     // Setup heads-up display.
     new Points; // Points display.

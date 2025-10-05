@@ -1,5 +1,5 @@
-gamestart.o: gamestart.cpp ../dragonfly/include/EventKeyboard.h \
-  ../dragonfly/include/Event.h \
+smalldino.o: smalldino.cpp ../dragonfly/include/SmallDino.h \
+  ../dragonfly/include/Object.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -755,9 +755,7 @@ gamestart.o: gamestart.cpp ../dragonfly/include/EventKeyboard.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/weak_result_type.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator_destructor.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/uses_allocator_construction.h \
-  ../dragonfly/include/GameManager.h ../dragonfly/include/Manager.h \
-  ../dragonfly/include/Object.h ../dragonfly/include/Animation.h \
-  ../dragonfly/include/Box.h \
+  ../dragonfly/include/Animation.h ../dragonfly/include/Box.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream \
@@ -828,7 +826,7 @@ gamestart.o: gamestart.cpp ../dragonfly/include/EventKeyboard.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
   ../dragonfly/include/Vector.h ../dragonfly/include/Sprite.h \
   ../dragonfly/include/Color.h ../dragonfly/include/Frame.h \
-  ../dragonfly/include/Path.h \
+  ../dragonfly/include/Event.h ../dragonfly/include/Path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_fwd.h \
@@ -885,17 +883,8 @@ gamestart.o: gamestart.cpp ../dragonfly/include/EventKeyboard.h \
   /opt/homebrew/include/SFML/Graphics/Transformable.hpp \
   /opt/homebrew/include/SFML/Graphics/VertexArray.hpp \
   /opt/homebrew/include/SFML/Graphics/Vertex.hpp \
-  ../dragonfly/include/ObjectList.h \
-  ../dragonfly/include/ObjectListIterator.h ../dragonfly/include/Hero.h \
-  ../dragonfly/include/Reticle.h ../dragonfly/include/EventMouse.h \
   ../dragonfly/include/EventCollision.h \
-  ../dragonfly/include/Pterodactyl.h \
-  ../dragonfly/include/PterodactylSpawner.h \
-  ../dragonfly/include/SmallDino.h \
-  ../dragonfly/include/SmallDinoSpawner.h ../dragonfly/include/Points.h \
-  ../dragonfly/include/ViewObject.h ../dragonfly/include/WorldManager.h \
-  ../dragonfly/include/Circle.h ../dragonfly/include/Line.h \
-  ../dragonfly/include/SceneGraph.h \
+  ../dragonfly/include/LogManager.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/is_transparent.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/ranges_iterator_traits.h \
@@ -923,9 +912,18 @@ gamestart.o: gamestart.cpp ../dragonfly/include/EventKeyboard.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_negate.h \
+  ../dragonfly/include/Manager.h ../dragonfly/include/ObjectList.h \
+  ../dragonfly/include/ObjectListIterator.h \
+  ../dragonfly/include/utility.h ../dragonfly/include/Circle.h \
+  ../dragonfly/include/EventKeyboard.h ../dragonfly/include/EventMouse.h \
+  ../dragonfly/include/Line.h ../dragonfly/include/NetworkNode.h \
+  ../dragonfly/include/EventNetwork.h ../dragonfly/include/Particle.h \
+  ../dragonfly/include/Precipitation.h ../dragonfly/include/ViewObject.h \
+  ../dragonfly/include/WorldManager.h ../dragonfly/include/SceneGraph.h \
   ../dragonfly/include/Grid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/set \
-  ../dragonfly/include/Music.h /opt/homebrew/include/SFML/Audio.hpp \
+  ../dragonfly/include/ResourceManager.h \
+  /opt/homebrew/include/SFML/Audio.hpp \
   /opt/homebrew/include/SFML/Audio/InputSoundFile.hpp \
   /opt/homebrew/include/SFML/Audio/Export.hpp \
   /opt/homebrew/include/SFML/Audio/SoundFileReader.hpp \
@@ -996,5 +994,7 @@ gamestart.o: gamestart.cpp ../dragonfly/include/EventKeyboard.h \
   /opt/homebrew/include/SFML/System/Utf.hpp \
   /opt/homebrew/include/SFML/System/Utf.inl \
   /opt/homebrew/include/SFML/System/String.inl \
-  ../dragonfly/include/GameStart.h \
-  ../dragonfly/include/ResourceManager.h ../dragonfly/include/Sound.h
+  ../dragonfly/include/Music.h ../dragonfly/include/Sound.h \
+  ../dragonfly/include/EventOut.h ../dragonfly/include/EventStep.h \
+  ../dragonfly/include/Explosion.h ../dragonfly/include/EventNuke.h \
+  ../dragonfly/include/EventView.h ../dragonfly/include/Points.h

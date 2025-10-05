@@ -149,9 +149,9 @@ void Hero::move(int dy)
 
 void Hero::hit(const df::EventCollision *p_c)
 {
-  // If Pterodactyl, mark Pterodactyl for destruction. lives - 1. Descturct hero if lives eq 0.
+  // If Pterodactyl or SmallDino, mark for destruction. lives - 1. Descturct hero if lives eq 0.
   int destroyed = 0;
-  if ((p_c->getObject1()->getType()) == "Pterodactyl")
+  if ((p_c->getObject1()->getType()) == "Pterodactyl" || (p_c->getObject1()->getType()) == "SmallDino")
   {
     WM.markForDelete(p_c->getObject1());
     // Create an explosion.
@@ -159,7 +159,7 @@ void Hero::hit(const df::EventCollision *p_c)
     p_explosion->setPosition(p_c->getObject1()->getPosition());
     destroyed = 1;
   }
-  if ((p_c->getObject2()->getType()) == "Pterodactyl")
+  if ((p_c->getObject2()->getType()) == "Pterodactyl" || (p_c->getObject2()->getType()) == "SmallDino")
   {
     WM.markForDelete(p_c->getObject2());
     // Create an explosion.
