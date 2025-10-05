@@ -2,6 +2,7 @@
 #include "GameManager.h"
 #include "Hero.h"
 #include "Pterodactyl.h"
+#include "PterodactylSpawner.h"
 #include "Points.h"
 #include "WorldManager.h"
 #include "EventMouse.h"
@@ -44,9 +45,8 @@ void GameStart::start()
     // Create hero.
     new Hero;
 
-    // Spawn some pterodactyls to shoot.
-    for (int i = 0; i < 16; i++)
-        new Pterodactyl;
+    // Create pterodactyl spawner (spawns at regular intervals).
+    new PterodactylSpawner;
 
     // Setup heads-up display.
     new Points; // Points display.
