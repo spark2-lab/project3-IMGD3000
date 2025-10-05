@@ -206,8 +206,8 @@ Hero::Hero()
   nuke_count = 1;
   lives = 3;
 
-  // Link to "ship" sprite.
-  int ret = setSprite("ship");
+  // Link to "dino" sprite.
+  int ret = setSprite("dino");
   if (ret != 0)
   {
     LM.writeLog("set sprite failed!!!!");
