@@ -104,7 +104,7 @@ Pterodactyl::Pterodactyl()
   setType("Pterodactyl");
 
   // Set speed in horizontal direction.
-  setVelocity(df::Vector(-0.25, 0)); // 1 space left every 4 frame 1/4
+  setVelocity(df::Vector(-0.5, 0)); // 1 space left every 2 frames
   registerInterest(df::COLLISION_EVENT);
   registerInterest(NUKE_EVENT);
 
