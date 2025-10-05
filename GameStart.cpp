@@ -1,7 +1,7 @@
 #include "EventKeyboard.h"
 #include "GameManager.h"
 #include "Hero.h"
-#include "Saucer.h"
+#include "Pterodactyl.h"
 #include "Points.h"
 #include "WorldManager.h"
 #include "EventMouse.h"
@@ -44,9 +44,9 @@ void GameStart::start()
     // Create hero.
     new Hero;
 
-    // Spawn some saucers to shoot.
+    // Spawn some pterodactyls to shoot.
     for (int i = 0; i < 16; i++)
-        new Saucer;
+        new Pterodactyl;
 
     // Setup heads-up display.
     new Points; // Points display.

@@ -1,7 +1,7 @@
 #include "Object.h"
 #include "EventCollision.h"
 
-class Saucer : public df::Object
+class Pterodactyl : public df::Object
 {
 private:
   void hit(const df::EventCollision *p_c);
@@ -9,7 +9,7 @@ private:
   void moveToStart();
 
 public:
-  Saucer();
-  ~Saucer();
+  Pterodactyl();
+  ~Pterodactyl();
   int eventHandler(const df::Event *p_e) override;
 };
