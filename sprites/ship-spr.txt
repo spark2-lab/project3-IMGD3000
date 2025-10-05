@@ -1,26 +1,24 @@
 <HEADER>
 frames 2
-width 8
-height 7
+width 7
+height 6
 color green
 slowdown 3
 </HEADER>
 <BODY>
-    OO  
-   OOOOD
-   OO   
-   OOOoo
-/ooOO   
-   O    
-   Ooo  
+    OO 
+   OOOD
+   OO  
+   OOOo
+/ooOO  
+   Ooo 
 end
-    OO  
-   OOOOD
-   OO   
-   OOOoo
-/ooOO   
-   O    
-  Ooo   
+    OO 
+   OOOD
+   OO  
+   OOOo
+/ooOO  
+  Ooo  
 end
 </BODY>
 <FOOTER>

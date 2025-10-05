@@ -1,306 +1,308 @@
-21:52:03    0 ****************************************************
-21:52:03    0 ** Dragonfly version 4.22 **
-21:52:03    0 ** Game engine started **
-21:52:03    0 ****************************************************
-21:52:03    1 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
-21:52:06   90 WorldManager::isValid(): Event df-out handled automatically.
-21:52:06   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-21:52:06   90 WorldManager::isValid(): Event df-out handled automatically.
-21:52:06   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-21:52:06   90 WorldManager::isValid(): Event df-out handled automatically.
-21:52:06   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-21:52:06   90 WorldManager::isValid(): Event df-out handled automatically.
-21:52:06   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-21:52:06   90 WorldManager::isValid(): Event df-out handled automatically.
-21:52:06   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-21:52:06   90 WorldManager::isValid(): Event df-out handled automatically.
-21:52:06   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-21:52:06   90 WorldManager::isValid(): Event df-out handled automatically.
-21:52:06   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-21:52:06   90 WorldManager::isValid(): Event df-out handled automatically.
-21:52:06   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-21:52:06   90 WorldManager::isValid(): Event df-out handled automatically.
-21:52:06   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-21:52:06   90 WorldManager::isValid(): Event df-out handled automatically.
-21:52:06   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-21:52:06   90 WorldManager::isValid(): Event df-out handled automatically.
-21:52:06   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-21:52:06   90 WorldManager::isValid(): Event df-out handled automatically.
-21:52:06   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-21:52:06   90 WorldManager::isValid(): Event df-out handled automatically.
-21:52:06   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-21:52:06   90 WorldManager::isValid(): Event df-out handled automatically.
-21:52:06   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-21:52:06   90 WorldManager::isValid(): Event df-out handled automatically.
-21:52:06   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-21:52:06   90 WorldManager::isValid(): Event df-out handled automatically.
-21:52:06   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
-21:52:07   32 set sprite suceed!!!!
-21:52:07   32 WorldManager::isValid(): Event df-collision handled automatically.
-21:52:07   32 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-21:52:07   32 WorldManager::isValid(): Event df-collision handled automatically.
-21:52:07   32 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-21:52:07   32 position: 95.000000,15.000000
-21:52:07   32 WorldManager::isValid(): Event df-collision handled automatically.
-21:52:07   32 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-21:52:07   32 position: 120.000000,16.000000
-21:52:07   32 WorldManager::isValid(): Event df-collision handled automatically.
-21:52:07   32 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-21:52:07   32 position: 105.000000,18.000000
-21:52:07   32 WorldManager::isValid(): Event df-collision handled automatically.
-21:52:07   32 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-21:52:07   32 position: 128.000000,23.000000
-21:52:07   32 WorldManager::isValid(): Event df-collision handled automatically.
-21:52:07   32 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-21:52:07   32 position: 159.000000,20.000000
-21:52:07   32 WorldManager::isValid(): Event df-collision handled automatically.
-21:52:07   32 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-21:52:07   32 position: 102.000000,23.000000
-21:52:07   32 WorldManager::isValid(): Event df-collision handled automatically.
-21:52:07   32 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-21:52:07   32 position: 115.000000,10.000000
-21:52:07   32 WorldManager::isValid(): Event df-collision handled automatically.
-21:52:07   32 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-21:52:07   32 position: 153.000000,15.000000
-21:52:07   32 WorldManager::isValid(): Event df-collision handled automatically.
-21:52:07   32 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-21:52:07   32 position: 102.000000,13.000000
-21:52:07   32 WorldManager::isValid(): Event df-collision handled automatically.
-21:52:07   32 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-21:52:07   32 position: 122.000000,20.000000
-21:52:07   32 WorldManager::isValid(): Event df-collision handled automatically.
-21:52:07   32 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-21:52:07   32 position: 87.000000,14.000000
-21:52:07   32 WorldManager::isValid(): Event df-collision handled automatically.
-21:52:07   32 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-21:52:07   32 position: 122.000000,11.000000
-21:52:07   32 WorldManager::isValid(): Event df-collision handled automatically.
-21:52:07   32 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-21:52:07   32 position: 127.000000,8.000000
-21:52:07   32 WorldManager::isValid(): Event df-collision handled automatically.
-21:52:07   32 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-21:52:07   32 position: 108.000000,5.000000
-21:52:07   32 WorldManager::isValid(): Event df-collision handled automatically.
-21:52:07   32 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-21:52:07   32 position: 134.000000,10.000000
-21:52:07   32 WorldManager::isValid(): Event df-collision handled automatically.
-21:52:07   32 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-21:52:07   32 position: 139.000000,23.000000
-21:52:18  349 position: 7.750000,14.000000
-21:52:18  366 position: 11.500000,15.000000
-21:52:18  371 position: 17.250000,13.000000
-21:52:18  372 position: 40.000000,12.000000
-21:52:18  373 position: 40.000000,12.000000
-21:52:18  374 position: 40.000000,12.000000
-21:52:19  375 position: 40.000000,12.000000
-21:52:19  376 position: 40.000000,12.000000
-21:52:19  377 position: 40.000000,12.000000
-21:52:19  378 position: 40.000000,12.000000
-21:52:19  379 position: 40.000000,12.000000
-21:52:19  380 position: 40.000000,12.000000
-21:52:19  381 position: 40.000000,12.000000
-21:52:19  382 position: 40.000000,12.000000
-21:52:19  383 position: 40.000000,12.000000
-21:52:19  384 position: 40.000000,12.000000
-21:52:19  385 position: 40.000000,12.000000
-21:52:19  386 position: 40.000000,12.000000
-21:52:19  387 position: 40.000000,12.000000
-21:52:19  388 position: 40.000000,12.000000
-21:52:19  389 position: 40.000000,12.000000
-21:52:19  390 position: 40.000000,12.000000
-21:52:19  391 position: 40.000000,12.000000
-21:52:19  392 position: 40.000000,12.000000
-21:52:19  393 position: 40.000000,12.000000
-21:52:19  394 position: 40.000000,12.000000
-21:52:19  395 position: 40.000000,12.000000
-21:52:19  396 position: 40.000000,12.000000
-21:52:19  397 position: 40.000000,12.000000
-21:52:19  398 position: 40.000000,12.000000
-21:52:19  399 position: 40.000000,12.000000
-21:52:19  400 position: 40.000000,12.000000
-21:52:19  401 position: 40.000000,12.000000
-21:52:19  402 position: 40.000000,12.000000
-21:52:19  403 position: 40.000000,12.000000
-21:52:19  404 position: 40.000000,12.000000
-21:52:20  405 position: 40.000000,12.000000
-21:52:20  406 position: 40.000000,12.000000
-21:52:20  407 position: 40.000000,12.000000
-21:52:20  408 position: 40.000000,12.000000
-21:52:20  409 position: 40.000000,12.000000
-21:52:20  410 position: 40.000000,12.000000
-21:52:20  411 position: 40.000000,12.000000
-21:52:20  412 position: 40.000000,12.000000
-21:52:20  413 position: 40.000000,12.000000
-21:52:20  414 position: 40.000000,12.000000
-21:52:20  415 position: 40.000000,12.000000
-21:52:20  416 position: 40.000000,12.000000
-21:52:20  417 position: 40.000000,12.000000
-21:52:20  418 position: 40.000000,12.000000
-21:52:20  419 position: 40.000000,12.000000
-21:52:20  420 position: 40.000000,12.000000
-21:52:20  421 position: 40.000000,12.000000
-21:52:20  422 position: 40.000000,12.000000
-21:52:20  423 position: 40.000000,12.000000
-21:52:20  424 position: 40.000000,12.000000
-21:52:20  425 position: 40.000000,12.000000
-21:52:20  426 position: 40.000000,12.000000
-21:52:20  427 position: 40.000000,12.000000
-21:52:20  428 position: 40.000000,12.000000
-21:52:20  429 position: 40.000000,12.000000
-21:52:20  430 position: 40.000000,12.000000
-21:52:20  431 position: 40.000000,12.000000
-21:52:20  432 position: 40.000000,12.000000
-21:52:20  433 position: 40.000000,12.000000
-21:52:20  434 position: 40.000000,12.000000
-21:52:21  435 position: 40.000000,12.000000
-21:52:21  436 position: 40.000000,12.000000
-21:52:21  437 position: 40.000000,12.000000
-21:52:21  438 position: 40.000000,12.000000
-21:52:21  439 position: 40.000000,12.000000
-21:52:21  440 position: 40.000000,12.000000
-21:52:21  441 position: 40.000000,12.000000
-21:52:21  442 position: 40.000000,12.000000
-21:52:21  443 position: 40.000000,12.000000
-21:52:21  444 position: 40.000000,12.000000
-21:52:21  445 position: 40.000000,12.000000
-21:52:21  446 position: 40.000000,12.000000
-21:52:21  447 position: 40.000000,12.000000
-21:52:21  448 position: 40.000000,12.000000
-21:52:21  449 position: 40.000000,12.000000
-21:52:21  450 position: 40.000000,12.000000
-21:52:21  451 position: 40.000000,12.000000
-21:52:21  452 position: 40.000000,12.000000
-21:52:21  452 position: -3.250000,23.000000
-21:52:21  452 WorldManager::isValid(): Event df-collision handled automatically.
-21:52:21  452 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-21:52:21  452 position: 141.000000,11.000000
-21:52:21  453 position: 40.000000,12.000000
-21:52:21  454 position: 40.000000,12.000000
-21:52:21  455 position: 40.000000,12.000000
-21:52:21  456 position: 40.000000,12.000000
-21:52:21  457 position: 40.000000,12.000000
-21:52:21  458 position: 40.000000,12.000000
-21:52:21  459 position: 40.000000,12.000000
-21:52:21  460 position: 40.000000,12.000000
-21:52:21  461 position: 40.000000,12.000000
-21:52:21  462 position: 40.000000,12.000000
-21:52:21  463 position: 40.000000,12.000000
-21:52:21  464 position: 40.000000,12.000000
-21:52:21  464 position: -3.250000,18.000000
-21:52:21  464 WorldManager::isValid(): Event df-collision handled automatically.
-21:52:21  464 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-21:52:21  464 position: 97.000000,22.000000
-21:52:21  465 position: 40.000000,12.000000
-21:52:22  466 position: 40.000000,12.000000
-21:52:22  467 position: 40.000000,12.000000
-21:52:22  468 position: 40.000000,12.000000
-21:52:22  469 position: 40.000000,12.000000
-21:52:22  470 position: 40.000000,12.000000
-21:52:22  471 position: 40.000000,12.000000
-21:52:22  472 position: 40.000000,12.000000
-21:52:22  473 position: 40.000000,12.000000
-21:52:22  474 position: 40.000000,12.000000
-21:52:22  475 position: 40.000000,12.000000
-21:52:22  476 position: 40.000000,12.000000
-21:52:22  476 position: -3.250000,5.000000
-21:52:22  476 WorldManager::isValid(): Event df-collision handled automatically.
-21:52:22  476 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-21:52:22  476 position: 147.000000,4.000000
-21:52:22  477 position: 40.000000,12.000000
-21:52:22  478 position: 40.000000,12.000000
-21:52:22  479 position: 40.000000,12.000000
-21:52:22  480 position: 40.000000,12.000000
-21:52:22  481 position: 40.000000,12.000000
-21:52:22  482 position: 40.000000,12.000000
-21:52:22  483 position: 40.000000,12.000000
-21:52:22  484 position: 40.000000,12.000000
-21:52:22  485 position: 40.000000,12.000000
-21:52:22  486 position: 40.000000,12.000000
-21:52:22  487 position: 40.000000,12.000000
-21:52:22  488 position: 40.000000,12.000000
-21:52:22  489 position: 40.000000,12.000000
-21:52:22  490 position: 40.000000,12.000000
-21:52:22  491 position: 40.000000,12.000000
-21:52:22  492 position: 40.000000,12.000000
-21:52:22  493 position: 40.000000,12.000000
-21:52:22  494 position: 40.000000,12.000000
-21:52:22  495 position: 40.000000,12.000000
-21:52:23  496 position: 40.000000,12.000000
-21:52:23  497 position: 40.000000,12.000000
-21:52:23  498 position: 40.000000,12.000000
-21:52:23  499 position: 40.000000,12.000000
-21:52:23  500 position: 40.000000,12.000000
-21:52:23  501 position: 40.000000,12.000000
-21:52:23  502 position: 40.000000,12.000000
-21:52:23  503 position: 40.000000,12.000000
-21:52:23  504 position: 40.000000,12.000000
-21:52:23  504 position: -3.250000,10.000000
-21:52:23  504 WorldManager::isValid(): Event df-collision handled automatically.
-21:52:23  504 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-21:52:23  504 position: 119.000000,20.000000
-21:52:23  505 position: 40.000000,12.000000
-21:52:23  506 position: 40.000000,12.000000
-21:52:23  507 position: 40.000000,12.000000
-21:52:23  508 position: 40.000000,12.000000
-21:52:23  509 position: 40.000000,12.000000
-21:52:23  510 position: 40.000000,12.000000
-21:52:23  511 position: 40.000000,12.000000
-21:52:23  512 position: 40.000000,12.000000
-21:52:23  513 position: 40.000000,12.000000
-21:52:23  514 position: 40.000000,12.000000
-21:52:23  515 position: 40.000000,12.000000
-21:52:23  516 position: 40.000000,12.000000
-21:52:23  517 position: 40.000000,12.000000
-21:52:23  518 position: 40.000000,12.000000
-21:52:23  519 position: 40.000000,12.000000
-21:52:23  520 position: 40.000000,12.000000
-21:52:23  521 position: 40.000000,12.000000
-21:52:23  522 position: 40.000000,12.000000
-21:52:23  523 position: 40.000000,12.000000
-21:52:23  524 position: 40.000000,12.000000
-21:52:23  524 position: -3.250000,16.000000
-21:52:23  524 WorldManager::isValid(): Event df-collision handled automatically.
-21:52:23  524 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-21:52:23  524 position: 143.000000,23.000000
-21:52:23  524 position: 123.250000,11.000000
-21:52:23  524 position: 117.000000,10.000000
-21:52:23  525 position: 40.000000,12.000000
-21:52:24  526 position: 40.000000,12.000000
-21:52:24  527 position: 40.000000,12.000000
-21:52:24  528 position: 40.000000,12.000000
-21:52:24  529 position: 40.000000,12.000000
-21:52:24  530 position: 40.000000,12.000000
-21:52:24  531 position: 40.000000,12.000000
-21:52:24  532 position: 40.000000,12.000000
-21:52:24  532 position: -3.250000,20.000000
-21:52:24  532 WorldManager::isValid(): Event df-collision handled automatically.
-21:52:24  532 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-21:52:24  532 position: 146.000000,18.000000
-21:52:24  532 position: -3.250000,11.000000
-21:52:24  532 WorldManager::isValid(): Event df-collision handled automatically.
-21:52:24  532 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-21:52:24  532 position: 109.250000,14.000000
-21:52:24  532 position: 103.000000,12.000000
-21:52:24  533 position: 40.000000,12.000000
-21:52:24  534 position: 40.000000,12.000000
-21:52:24  535 position: 40.000000,12.000000
-21:52:24  536 position: 40.000000,12.000000
-21:52:24  537 position: 40.000000,12.000000
-21:52:24  538 position: 40.000000,12.000000
-21:52:24  539 position: 40.000000,12.000000
-21:52:24  540 position: 40.000000,12.000000
-21:52:24  541 position: 40.000000,12.000000
-21:52:24  542 position: 40.000000,12.000000
-21:52:24  543 position: 40.000000,12.000000
-21:52:24  544 position: 40.000000,12.000000
-21:52:24  545 position: 40.000000,12.000000
-21:52:24  546 position: 40.000000,12.000000
-21:52:24  547 position: 40.000000,12.000000
-21:52:24  548 position: 40.000000,12.000000
-21:52:24  549 position: 40.000000,12.000000
-21:52:24  550 position: 40.000000,12.000000
-21:52:24  551 position: 40.000000,12.000000
-21:52:24  551 Score: 47 
-21:52:24  551 Score 302 vs 47
-21:52:27  619 ****************************************************
-21:52:27  619 ** Game engine stopped **
+22:09:59    0 ****************************************************
+22:09:59    0 ** Dragonfly version 4.22 **
+22:09:59    0 ** Game engine started **
+22:09:59    0 ****************************************************
+22:10:00    1 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
+22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
+22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
+22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
+22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
+22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
+22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
+22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
+22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
+22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
+22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
+22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
+22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
+22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
+22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
+22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:10:03   90 WorldManager::isValid(): Event df-out handled automatically.
+22:10:03   90 Manager(WorldManager)::registerInterest(): Event 'df-out' not valid for this Manager
+22:10:03   10 set sprite suceed!!!!
+22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
+22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
+22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:10:03   10 position: 140.000000,11.000000
+22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
+22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:10:03   10 position: 116.000000,6.000000
+22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
+22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:10:03   10 position: 157.000000,15.000000
+22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
+22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:10:03   10 position: 157.000000,11.000000
+22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
+22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:10:03   10 position: 106.000000,13.000000
+22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
+22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:10:03   10 position: 110.000000,17.000000
+22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
+22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:10:03   10 position: 109.000000,7.000000
+22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
+22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:10:03   10 position: 97.000000,12.000000
+22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
+22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:10:03   10 position: 159.000000,20.000000
+22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
+22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:10:03   10 position: 147.000000,12.000000
+22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
+22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:10:03   10 position: 150.000000,9.000000
+22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
+22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:10:03   10 position: 135.000000,23.000000
+22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
+22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:10:03   10 position: 107.000000,20.000000
+22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
+22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:10:03   10 position: 150.000000,16.000000
+22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
+22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:10:03   10 position: 113.000000,13.000000
+22:10:03   10 WorldManager::isValid(): Event df-collision handled automatically.
+22:10:03   10 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+22:10:03   10 position: 103.000000,17.000000
+22:10:09  184 Object::Object(): Error! Unable to add 0x14289a400 to game world.
+22:10:09  184 SceneGraph::removeObject(): Error removing Object (id 42)! Pointer is 0x14289a400.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14289b000 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14289bc00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14289c800 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14289d400 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14289e000 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14289ec00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14289f800 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428a0400 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428a1200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428a1e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428a2a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428a3600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428a4200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428a4e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428a5a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428a6600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428a7200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428a7e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428a8a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428a9600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428aa200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428aae00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428aba00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428ac600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428ad200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428ade00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428aea00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428af600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428b0200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428b0e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428b1a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428b2600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428b3200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428b3e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428b4a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428b5600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428b6200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428b6e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428b7a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428b8600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428b9200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428b9e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428baa00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428bb600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428bc200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428bce00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428bda00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428be600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428bf200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428bfe00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428c0a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428c1600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428c2200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428c2e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428c3a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428c4600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428c5200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428c5e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428c6a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428c7a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428c8600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428c9200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428ca200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428cae00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428cba00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428cce00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428cda00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428ce600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428cf200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428cfe00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428d0a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428d1600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428d2200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428d2e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428d3a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428d4600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428d5200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428d5e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428d6a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428d7600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428d8200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428d8e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428d9a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428da600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428db200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428dbe00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428dca00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428dd600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428de200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428dee00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428dfa00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428e0600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428e1200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428e1e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428e2a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428e3600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428e4200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428e4e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428e5a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428e6600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428e7200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428e7e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428e8a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428e9600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428ea200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428eae00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428eba00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428ec600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428ed200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428ede00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428eea00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428ef600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428f0200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428f0e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428f1a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428f2600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428f3200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428f3e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428f4a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428f5600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428f6200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428f6e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428f7a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428f8e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428f9a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428fa600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428fba00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428fc600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428fd200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428fee00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x1428ffa00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142900600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142901200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142901e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142902a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142903600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142904200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142904e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142905a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142906600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142907200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142907e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142908a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142909600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14290a200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14290ae00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14290ba00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14290c600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14290d200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14290de00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14290ea00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14290f600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142910200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142910e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142911a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142912600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142913200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142913e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142914a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142915600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142916200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142916e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142917a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142918600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142919200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142919e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14291aa00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14291b600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14291c200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14291ce00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14291da00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14291e600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14291f200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14291fe00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142920a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142921600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142922200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142922e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142923a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142924600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142925200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142925e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142926a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142927600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142928200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142928e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142929a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14292a600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14292b200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14292be00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14292ca00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14292d600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14292e200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14292ee00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x14292fa00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142930600 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142931200 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142931e00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142932a00 to game world.
+22:10:09  184 Object::Object(): Error! Unable to add 0x142933600 to game world.
+22:10:09  184 position: 40.000000,12.000000
+22:10:09  184 position: 40.000000,12.000000
+22:10:09  184 position: 40.000000,12.000000
+22:10:09  184 position: 40.000000,12.000000
+22:10:09  184 position: 40.000000,12.000000
+22:10:09  184 position: 40.000000,12.000000
+22:10:09  184 position: 40.000000,12.000000
+22:10:09  184 position: 40.000000,12.000000
+22:10:09  184 position: 40.000000,12.000000
+22:10:09  184 position: 40.000000,12.000000
+22:10:09  184 position: 40.000000,12.000000
+22:10:09  184 position: 40.000000,12.000000
+22:10:09  184 position: 40.000000,12.000000
+22:10:09  184 position: 40.000000,12.000000
+22:10:09  184 position: 40.000000,12.000000
+22:10:09  184 position: 40.000000,12.000000
+22:10:09  184 ****************************************************
+22:10:09  184 ** Game engine stopped **
