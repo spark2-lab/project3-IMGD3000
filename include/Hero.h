@@ -23,6 +23,7 @@ private:
   int fire_countdown;
   int nuke_count;
   int lives;
+  int current_tier; // 0 = top, 1 = middle, 2 = bottom
 
   Reticle *p_reticle;
 

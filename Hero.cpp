@@ -107,15 +107,29 @@ void Hero::kbd(const df::EventKeyboard *p_keyboard_event)
     break;
   case df::Keyboard::W: // up
     if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED)
-      dy -= 1;
-    if (p_keyboard_event->getKeyboardAction() == df::KEY_RELEASED)
-      dy += 1;
+    {
+      if (current_tier > 0)
+      {
+        current_tier--;
+        float tier_height = WM.getBoundary().getVertical() / 3.0f;
+        float target_y = tier_height * current_tier + tier_height / 2;
+        df::Vector new_pos(getPosition().getX(), target_y);
+        WM.moveObject(this, new_pos);
+      }
+    }
     break;
   case df::Keyboard::S: // down
     if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED)
-      dy += 1;
-    if (p_keyboard_event->getKeyboardAction() == df::KEY_RELEASED)
-      dy -= 1;
+    {
+      if (current_tier < 2)
+      {
+        current_tier++;
+        float tier_height = WM.getBoundary().getVertical() / 3.0f;
+        float target_y = tier_height * current_tier + tier_height / 2;
+        df::Vector new_pos(getPosition().getX(), target_y);
+        WM.moveObject(this, new_pos);
+      }
+    }
     break;
   case df::Keyboard::SPACE:
     if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED)
@@ -127,17 +141,10 @@ void Hero::kbd(const df::EventKeyboard *p_keyboard_event)
   }
 }
 
-// Move up or down.
+// Move up or down (no longer used with tier system).
 void Hero::move(int dy)
 {
-  if (move_countdown > 0)
-    return;
-  move_countdown = move_slowdown;
-  // If stays on window, allow move.
-  df::Vector new_pos(getPosition().getX(), getPosition().getY() + dy);
-  if ((new_pos.getY() > 3) &&
-      (new_pos.getY() < WM.getBoundary().getVertical()))
-    WM.moveObject(this, new_pos);
+  // Tier movement is now handled in kbd()
 }
 
 void Hero::hit(const df::EventCollision *p_c)
@@ -181,15 +188,6 @@ void Hero::hit(const df::EventCollision *p_c)
 // Decrease rate restriction counters.
 void Hero::step()
 {
-  // If delta-y is non-zero, move.
-  if (dy)
-    move(dy);
-
-  // Move countdown.
-  move_countdown--;
-  if (move_countdown < 0)
-    move_countdown = 0;
-
   // Fire countdown.
   fire_countdown--;
   if (fire_countdown < 0)
@@ -205,6 +203,7 @@ Hero::Hero()
   fire_countdown = fire_slowdown;
   nuke_count = 1;
   lives = 3;
+  current_tier = 1; // Start at middle tier
 
   // Link to "dino" sprite.
   int ret = setSprite("dino");
